@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../Style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
 </head>
 
 <body>
@@ -572,7 +573,30 @@
                     card one
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 borderTest">
-                    card two
+                    <div class="borderTest w-80 h-80 rounded m-4 p-2">
+                        <div class="card p-2">
+                            <h4 class="card-title text-success ">Book Free consultation</h4>
+                            <form onsubmit="bookConsultation()" id="bookConsultationForm">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Name <span class="text-danger">*</span></label>
+                                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Enter Name">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">What king of retrate are you Inrerested In?  <span class="text-danger">*</span></label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                  </div>
+                                  <div class="mb-3 d-flex justify-content-center">
+                                    <button type="submit"  class="btn btn-success rounded">BOOK FREE CONSULTATION</button>
+                                  </div>
+                            </form>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
