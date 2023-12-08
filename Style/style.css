@@ -115,6 +115,9 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+}
+.card-background{
     background: linear-gradient(332deg, #1e8a5700, #27843985);
     background-size: 400% 400%;
     -webkit-animation: AnimationName 11s ease infinite;
