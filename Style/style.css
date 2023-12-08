@@ -146,7 +146,7 @@ body {
 
 .review-container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 85vh;
     max-height: auto;
 }
 .review-reviews-container{
@@ -207,8 +207,11 @@ body {
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
+    flex-direction: column;
     scroll-behavior: smooth;
     scrollbar-width: thin;
+    padding: 6px;
+    padding-top: 100px;
 }
 .review-reviews-reviews-section::-webkit-scrollbar{
     display: none;
@@ -255,8 +258,14 @@ body {
 }
 
 .vedio-carousel-container{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 
