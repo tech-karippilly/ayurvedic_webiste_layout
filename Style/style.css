@@ -254,6 +254,11 @@ body {
     display: none;
 }
 
+.vedio-carousel-container{
+    width: 90%;
+    height: 90%;
+}
+
 
 /*********** REVIEW SECTION CSS *************/
 
