@@ -107,31 +107,59 @@ body {
     border: 0;
     border-radius: 10px;
 }
-
-.cardHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cardContainer {
+/* ************** CARD SECTION CSS ************ */
+.card_container{
     width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(332deg, #1e8a5700, #27843985);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    -o-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+.card-header-container{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-div_card{
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+}
+.card-p-text{
+    font-size: 10px;
+    font-weight: bold;
+}
+/*********** CARD SECTION CSS ***************/
+
+.image-container {
+    height: 75%;
 }
 
-.cardContainer_card{
-    width:25%;
+.card-body-container {
+    height: 25%;
+    overflow: hidden;
+}
+
+.card_cards_icons{
+    width: 20%;
     height: 100%;
-}
-
-.cardContainer_cardCondent{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 
+}
+.card_cards_contents{
+    width: 80%;
+    display: flex;
+    height: auto;
 }
 
 .custom-card {
@@ -324,6 +352,9 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .card_heder_text{
+        font-size: 15px;
+    }
 
 }
 
@@ -365,6 +396,10 @@ body {
         margin-bottom: 10px;
     }
 
+    .card_heder_text{
+        font-size: 15px;
+    }
+
 
 }
 
@@ -385,6 +420,7 @@ body {
         font-size: 22px;
     }
 }
+
 .con-card{
     display: flex;
      flex-direction:row;
