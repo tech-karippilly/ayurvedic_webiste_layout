@@ -111,6 +111,7 @@ body {
 .card_container{
     width: 100%;
     min-height: 60vh;
+    max-height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,6 +142,120 @@ body {
     font-weight: bold;
 }
 /*********** CARD SECTION CSS ***************/
+/*********** REVIEW SECTION CSS *************/
+
+.review-container{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+}
+.review-reviews-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1px;
+}
+.review-reviews-header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.review-reviews-header-contents{
+    width: 80%;
+    height: 100%;
+    
+}
+.review-reviews-header-icon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.review-reviews-header-icon-msg-div{
+    width: 70%;
+    height: 25%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-reviews-header-icon-msg-text{
+    font-size: 12px;
+    
+}
+
+.review-reviews-header-contents-text{
+    color: rgb(182, 149, 105);
+}
+
+.review-reviews-icon-container{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-reviews-reviews-section{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+.review-reviews-reviews-section::-webkit-scrollbar{
+    display: none;
+}
+.review-reviews-reviews-items-container{
+    width: 100%;
+    height: 15vh;
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.review-reviews-reviews-items-user-container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-items-user-review-container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;   
+}
+.reviews-items-user-quotes-container{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-items-user-reviews{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    overflow-y: scroll;
+    flex-direction: column;
+    padding: 6px;
+}
+.reviews-items-user-reviews::-webkit-scrollbar{
+    display: none;
+}
+
+
+/*********** REVIEW SECTION CSS *************/
 
 .image-container {
     height: 75%;
