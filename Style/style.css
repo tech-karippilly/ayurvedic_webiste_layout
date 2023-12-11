@@ -271,6 +271,20 @@ body {
 
 /*********** REVIEW SECTION CSS *************/
 
+
+/*************** RECOGNITION CARD CSS *********/
+
+
+.recognition-card{
+    width: 190px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    
+}
+
 .image-container {
     height: 75%;
 }
@@ -557,7 +571,7 @@ body {
     display: flex;
      flex-direction:row;
      margin: 20px 20px 20px 20px;
-    border: 2px solid red;
+    border: 1px solid gray;
     border-radius: 10px;
     justify-content: space-around;
     align-items: center;
