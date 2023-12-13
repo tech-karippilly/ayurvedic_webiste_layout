@@ -7,6 +7,7 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+    scroll-behavior: smooth;
 }
 
 .borderTest {
@@ -223,6 +224,11 @@ body::-webkit-scrollbar {
 .card-p-text {
     font-size: 10px;
     font-weight: bold;
+}
+.card-section2-p-text{
+    font-size: 11px;
+    font-weight: 500;
+
 }
 
 .card-section-img {
