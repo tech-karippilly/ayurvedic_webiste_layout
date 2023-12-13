@@ -228,8 +228,9 @@ body::-webkit-scrollbar {
 .card-section2-p-text{
     font-size: 11px;
     font-weight: 500;
-
 }
+
+.
 
 .card-section-img {
     width: 100%;
@@ -297,6 +298,9 @@ body::-webkit-scrollbar {
 .review-reviews-header-contents-text {
     color: rgb(182, 149, 105);
 }
+.reviews-header-contents-text{
+    font-size: 11px;
+}
 
 .review-reviews-icon-container {
     width: 100%;
@@ -317,7 +321,7 @@ body::-webkit-scrollbar {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     padding: 6px;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 .review-reviews-reviews-section::-webkit-scrollbar {
@@ -331,6 +335,7 @@ body::-webkit-scrollbar {
     margin: 2px;
     display: flex;
     flex-direction: row;
+    margin-top: 3px;
 }
 
 .review-reviews-reviews-items-user-container {
@@ -373,14 +378,17 @@ body::-webkit-scrollbar {
 .vedio-carousel-container {
     width: 100%;
     min-height: 100%;
-    background-color: white;
     padding: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
 }
-
+.vedio-iframe{
+    width: 100%;
+    height: 38rem;
+    border-radius: 10px;
+}
 
 /*********** REVIEW SECTION CSS *************/
 
