@@ -122,6 +122,61 @@ body::-webkit-scrollbar{
     border: 0;
     border-radius: 10px;
 }
+
+.about-card-colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 280px;
+}
+
+
+.about-card{
+    width: 100%;
+    height: 80%;
+    padding: 5px;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.about-card-header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.about-card-header-icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-card-header-title{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+}
+.about-card-header-title-text{
+    font-size: 13px;
+}
+.about-card-body{
+    width: 100%;
+    height: 70%;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-card-body-text{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
 /* ************** CARD SECTION CSS ************ */
 .card_container{
     width: 100%;
@@ -510,6 +565,40 @@ body::-webkit-scrollbar{
 
 
 
+
+
+.con-card{
+    display: flex;
+     flex-direction:row;
+     margin: 20px 20px 20px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.con-icon{
+ 
+     height: 100px;
+      width: 30%;
+      display: flex;
+      flex-direction:column;
+    
+      align-items: center;
+      justify-content: space-around;
+
+}
+
+.con-icon button{
+   width: 150px;
+  margin-left: 10px;
+  background-color: rgb(211, 94, 94);
+
+}
+.container-sm{
+    font-size:19px;
+}
+
 @media (max-width: 575.98px) {
     body {
         font-size: 13px;
@@ -548,7 +637,6 @@ body::-webkit-scrollbar{
     }
 
 }
-
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     body {
@@ -598,11 +686,33 @@ body::-webkit-scrollbar{
     body {
         font-size: 18px;
     }
+    .about-card-body-text{
+        font-size: 10px;
+    }
+    .about-card-header-title-text{
+        font-size: 10px;
+    }
+    .about-card-header-title-smaller-text{
+        font-size: 7px;
+    }
+    .about-card-body-text{
+        font-size: 8px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     body {
         font-size: 20px;
+
+    }
+    .about-card-body-text{
+        font-size: 10px;
+    }
+    .about-card-header-title-text{
+        font-size: 12px;
+    }
+    .about-card-header-title-smaller-text{
+        font-size: 7px;
     }
 }
 
@@ -612,36 +722,6 @@ body::-webkit-scrollbar{
     }
 }
 
-.con-card{
-    display: flex;
-     flex-direction:row;
-     margin: 20px 20px 20px 20px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-}
-.con-icon{
- 
-     height: 100px;
-      width: 30%;
-      display: flex;
-      flex-direction:column;
-    
-      align-items: center;
-      justify-content: space-around;
 
-}
-
-.con-icon button{
-   width: 150px;
-  margin-left: 10px;
-  background-color: rgb(211, 94, 94);
-
-}
-.container-sm{
-    font-size:19px;
-}
 
      
