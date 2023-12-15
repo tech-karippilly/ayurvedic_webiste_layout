@@ -590,7 +590,7 @@ body::-webkit-scrollbar {
 
 .RecognitionSection {
     min-height: 50vh;
-    max-height: auto;
+    
 }
 
 .recognition-container {
@@ -733,6 +733,45 @@ body::-webkit-scrollbar {
     .footer-contact-phone-div{
         height: 80%;
         width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-header-text{
+        font-size: 10px;
+    }
+    .colum-margin{
+        margin-bottom: 2rem;
+    }
+    .review-text{
+        display: none;
+    }
+    .vedio-carousel-gap{
+        margin-top: 2rem
+    }
+    .RecognitionSection{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .con-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contact-div{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+    }
+    .footer-contact-phone-div{
+        height: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
