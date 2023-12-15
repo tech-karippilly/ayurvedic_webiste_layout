@@ -231,7 +231,7 @@ body::-webkit-scrollbar {
     font-weight: 500;
 }
 
-. .card-section-img {
+.card-section-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
