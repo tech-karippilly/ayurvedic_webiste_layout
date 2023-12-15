@@ -17,7 +17,6 @@ body::-webkit-scrollbar {
 .header-section {
     height: 100vh;
     overflow: hidden;
-
 }
 
 .header-CarouselItems {
@@ -52,16 +51,20 @@ body::-webkit-scrollbar {
     background-color: rgba(226, 218, 218, 0.9);
 }
 
-
 .about-section {
     height: 500px;
-    background-color: rgb(242, 236, 236);
+    background-color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 68px;
+    height: 17px;
 }
 
 .aboutCardOne {
     height: 480px;
     margin: 5px;
-    background-image: url('https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/11/Ayurvedic-herb-herb-turmeric-indian-spices-1296x728-header-1296x728.jpg?w=1155&h=1528');
+    background-image: url('../images/Kerala-Ayurveda-Retreat.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -72,11 +75,9 @@ body::-webkit-scrollbar {
 }
 
 .aboutInfoContainer {
-
     background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
     padding-left: 10px;
-
 }
 
 .aboutCardtwo {
@@ -133,7 +134,6 @@ body::-webkit-scrollbar {
     height: 280px;
 }
 
-
 .about-card {
     width: 100%;
     height: 80%;
@@ -187,7 +187,9 @@ body::-webkit-scrollbar {
     text-align: justify;
 }
 
+
 /* ************** CARD SECTION CSS ************ */
+
 .card_container {
     width: 100%;
     min-height: 60vh;
@@ -196,11 +198,10 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .card-background {
-    background: linear-gradient(332deg, #1e8a5700, #27843985);
+    background: white;
     background-size: 400% 400%;
     -webkit-animation: AnimationName 11s ease infinite;
     -moz-animation: AnimationName 11s ease infinite;
@@ -218,30 +219,32 @@ body::-webkit-scrollbar {
 
 .custom-div_card {
     height: 400px;
-
 }
 
 .card-p-text {
     font-size: 10px;
     font-weight: bold;
 }
-.card-section2-p-text{
+
+.card-section2-p-text {
     font-size: 11px;
     font-weight: 500;
 }
 
-.
-
-.card-section-img {
+. .card-section-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .card-section-img:hover {
     opacity: 0.6;
-    
 }
+
+
 /*********** CARD SECTION CSS ***************/
+
+
 /*********** REVIEW SECTION CSS *************/
 
 .review-container {
@@ -269,7 +272,6 @@ body::-webkit-scrollbar {
 .review-reviews-header-contents {
     width: 80%;
     height: 100%;
-
 }
 
 .review-reviews-header-icon {
@@ -292,13 +294,13 @@ body::-webkit-scrollbar {
 
 .review-reviews-header-icon-msg-text {
     font-size: 12px;
-
 }
 
 .review-reviews-header-contents-text {
-    color: #b16d31 ;
+    color: #b16d31;
 }
-.reviews-header-contents-text{
+
+.reviews-header-contents-text {
     font-size: 11px;
 }
 
@@ -384,17 +386,18 @@ body::-webkit-scrollbar {
     align-items: center;
     border-radius: 5px;
 }
-.vedio-iframe{
+
+.vedio-iframe {
     width: 100%;
     height: 38rem;
     border-radius: 10px;
 }
 
+
 /*********** REVIEW SECTION CSS *************/
 
 
 /*************** RECOGNITION CARD CSS *********/
-
 
 .recognition-card {
     width: 190px;
@@ -403,7 +406,6 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     border: 0;
-
 }
 
 .image-container {
@@ -421,7 +423,6 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: baseline;
-
 }
 
 .card_cards_contents {
@@ -440,7 +441,6 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
 }
-
 
 .custom-div {
     display: flex;
@@ -494,7 +494,6 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .reviewCardOne_arrow {
@@ -528,16 +527,16 @@ body::-webkit-scrollbar {
     width: 10;
 }
 
-
 .formsection {
     height: 800px;
 }
 
+
 /* FOOTER SECTION */
+
 .footer {
     height: 150px;
 }
-
 
 .review-div {
     display: flex;
@@ -566,7 +565,6 @@ body::-webkit-scrollbar {
     /* Adjust the font size as needed */
 }
 
-
 .RecognitionSection {
     height: auto;
 }
@@ -584,6 +582,7 @@ body::-webkit-scrollbar {
     height: 80%;
     text-align: center;
 }
+
 
 /******** FOOTER SECTION ********/
 
@@ -616,11 +615,8 @@ body::-webkit-scrollbar {
     background-color: #4A0404;
 }
 
+
 /******** FOOTER SECTION ********/
-
-
-
-
 
 .con-card {
     display: flex;
@@ -634,22 +630,18 @@ body::-webkit-scrollbar {
 }
 
 .con-icon {
-
     height: 100px;
     width: 30%;
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: space-around;
-
 }
 
 .con-icon button {
     width: 150px;
     margin-left: 10px;
     background-color: rgb(211, 94, 94);
-
 }
 
 .container-sm {
@@ -693,7 +685,6 @@ body::-webkit-scrollbar {
     .card_heder_text {
         font-size: 15px;
     }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -736,8 +727,6 @@ body::-webkit-scrollbar {
     .card_heder_text {
         font-size: 15px;
     }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -765,7 +754,6 @@ body::-webkit-scrollbar {
 @media (min-width: 992px) and (max-width: 1199.98px) {
     body {
         font-size: 20px;
-
     }
 
     .about-card-body-text {
