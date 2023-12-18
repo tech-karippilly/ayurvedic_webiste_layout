@@ -748,6 +748,11 @@ body::-webkit-scrollbar {
     overflow-x: scroll;
 }
 
+.modal-content-container::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+
 .modal-content-container ul li{
     color: white;
     font-size: 17pt;
@@ -773,6 +778,8 @@ body::-webkit-scrollbar {
     font-weight: 400 !important;
     margin-top: 0.5rem;
 }
+
+
 @media (max-width: 575.98px) {
     body {
         font-size: 13px;
@@ -941,6 +948,9 @@ body::-webkit-scrollbar {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .image-footer-header h1{
+        font-size: 12pt;
     }
 }
 
