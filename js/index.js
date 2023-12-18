@@ -5,13 +5,8 @@ document.getElementById('bookConsultationForm').addEventListener('submit', bookC
 
 
 function bookConsultation(event){
-
-    alert('booking Consultation')
-}
-
-function bookNow(){
-    alert('model show')
+    console.log('booking Consultation');
+    // alert('booking Consultation')
 }
 
 
-bookNowBtn.addEventListener('click',bookNow)
