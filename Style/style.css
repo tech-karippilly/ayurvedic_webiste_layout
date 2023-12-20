@@ -844,9 +844,31 @@ body::-webkit-scrollbar {
     height: 100%;
 }
 
+
+
+
 @media (max-width: 575.98px) {
     body {
         font-size: 13px;
+    }
+    .modal {
+        width: 90%;
+        max-height: 80%;
+    }
+
+    .modal-closebuttonContianer {
+        width: 30px;
+        height: 30px;
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* float: right !important; */
+        border: none;
+        position: relative;
+        top: 10px;
+        left: 50%;
+        margin-bottom: 20px;
     }
 
     .header-bookNowBtn {
@@ -952,11 +974,15 @@ body::-webkit-scrollbar {
     .image-footer-header h1 {
         font-size: 8pt;
     }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     body {
         font-size: 16px;
+    }
+    .modal {
+        --bs-modal-width: 50%;
     }
 
     .about-section {
@@ -1073,6 +1099,9 @@ body::-webkit-scrollbar {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .modal {
+        --bs-modal-width: 80%;
     }
 
 }
