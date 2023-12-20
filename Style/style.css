@@ -830,9 +830,11 @@ body::-webkit-scrollbar {
 }
 #content-div h4{
     font-weight: 600;
+    font-size: 14pt;
 }
 #content-div p{
     font-weight: 400 !important;
+    font-size: 12pt;
 }
 #content-div::-webkit-scrollbar{
     display: none;
