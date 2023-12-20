@@ -753,7 +753,7 @@ body::-webkit-scrollbar {
 .modal-image {
     width: 100%;
     height: 100%;
-    /* background-image: url('../images/Panchakarma_Kerala.jpg'); */
+    background-image: url('../images/Panchakarma_Kerala.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -804,6 +804,43 @@ body::-webkit-scrollbar {
     margin-top: 0.5rem;
 }
 
+#modalContent{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+#image-div{
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+
+}
+#content-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    overflow: scroll;
+    color: white;
+}
+#content-div h4{
+    font-weight: 600;
+}
+#content-div p{
+    font-weight: 400 !important;
+}
+#content-div::-webkit-scrollbar{
+    display: none;
+}
+.content-img{
+    width: 100%;
+    height: 100%;
+}
 
 @media (max-width: 575.98px) {
     body {
