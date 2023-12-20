@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:white;
-    font-family: Montserrat,sans-serif;
+    background-color: white;
+    font-family: Montserrat, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
     scroll-behavior: smooth;
 }
 
-.common-color{
+.common-color {
     background-color: #598145;
 }
 
@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
 
 
 
-.divider-margin{
+.divider-margin {
     margin-top: 3rem;
 }
 
@@ -81,7 +81,6 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -104,7 +103,8 @@ body::-webkit-scrollbar {
     border: 0px;
     border-left: 5px solid green;
 }
-.about-condent-area{
+
+.about-condent-area {
     height: 14%;
 }
 
@@ -114,7 +114,7 @@ body::-webkit-scrollbar {
     overflow: hidden;
     padding: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     padding: 3px;
 }
@@ -122,16 +122,22 @@ body::-webkit-scrollbar {
 .aboutCardTwo_image {
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     margin: 0px;
     padding: 0px;
 }
 
 .about-cardSection {
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.btn:hover {
+    background-color: #598145;
+    opacity: 0.9;
 }
 
 .about-cardSectionCards {
@@ -158,11 +164,12 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
-.align-center{
+.align-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .about-card-header {
     width: 100%;
     height: 20%;
@@ -170,7 +177,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
 .about-card-header-icon {
@@ -187,6 +194,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .about-card-header-title-text {
@@ -205,7 +213,7 @@ body::-webkit-scrollbar {
 .about-card-body-text {
     font-size: 14px;
     font-weight: 300;
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -415,6 +423,11 @@ body::-webkit-scrollbar {
 }
 
 
+
+.hidden {
+    display: none;
+}
+
 /*********** REVIEW SECTION CSS *************/
 
 
@@ -590,7 +603,7 @@ body::-webkit-scrollbar {
 
 .RecognitionSection {
     min-height: 50vh;
-    
+
 }
 
 .recognition-container {
@@ -676,92 +689,102 @@ body::-webkit-scrollbar {
 }
 
 
-.footer-text{
-    color: #5D6D7E; 
+.footer-text {
+    color: #5D6D7E;
     font-size: 15px;
 }
 
 
-.modal{
-    --bs-modal-width: 80% ;
+.modal {
+    --bs-modal-width: 80%;
 }
-.model-background{
-    background-color:#598145 ;
+
+.model-background {
+    background-color: #598145;
     height: 80%;
 }
-.modal-closebuttonContianer{
+
+.modal-closebuttonContianer {
     width: 50px;
     height: 50px;
     background-color: brown;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     float: right !important;
     border: none;
     position: absolute;
     top: -20px;
     left: 98%;
 }
-.modal-header{
+
+.modal-header {
     display: flex;
     justify-content: end;
     align-items: flex-start;
     float: right !important;
 }
-.btn-close{
+
+.btn-close {
     color: white !important;
 }
-.modal-body{
+
+.modal-body {
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.modal-bodyContainer{
+
+.modal-bodyContainer {
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-.modal-imageContainer{
+
+.modal-imageContainer {
     width: 50%;
     height: 60vh;
     padding: 10px;
 
 }
-.modal-image{
+
+.modal-image {
     width: 100%;
     height: 100%;
-    background-image: url('../images/Panchakarma_Kerala.jpg');
+    /* background-image: url('../images/Panchakarma_Kerala.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    justify-content:center;
-    align-items:end
-
+    justify-content: center;
+    align-items: end
 }
-.modal-content-container{
+
+.modal-content-container {
     width: 50%;
     height: 60vh;
     padding: 5px;
     overflow-x: scroll;
 }
 
-.modal-content-container::-webkit-scrollbar{
+.modal-content-container::-webkit-scrollbar {
     display: none;
     scroll-behavior: smooth;
 }
 
-.modal-content-container ul li{
+.modal-content-container ul li {
     color: white;
     font-size: 17pt;
     font-weight: 300;
 }
-.modal-content-container ul li span{
-    font-weight:bold;
+
+.modal-content-container ul li span {
+    font-weight: bold;
 }
-.modal-FooterContainer{
+
+.modal-FooterContainer {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -769,10 +792,12 @@ body::-webkit-scrollbar {
     flex-direction: column;
     margin-top: 1rem;
 }
-.modal-badge{
+
+.modal-badge {
     padding: 1rem;
 }
-.modal-footer-contents p{
+
+.modal-footer-contents p {
     color: white;
     text-align: center;
     font-weight: 400 !important;
@@ -819,7 +844,7 @@ body::-webkit-scrollbar {
         font-size: 15px;
     }
 
-    .footer-contact-div{
+    .footer-contact-div {
         height: 60%;
         width: 100%;
         display: flex;
@@ -828,7 +853,8 @@ body::-webkit-scrollbar {
         align-items: center;
         background-color: white;
     }
-    .footer-contact-phone-div{
+
+    .footer-contact-phone-div {
         height: 80%;
         width: 60%;
         display: flex;
@@ -836,29 +862,36 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .card-header-text{
+
+    .card-header-text {
         font-size: 10px;
     }
-    .colum-margin{
+
+    .colum-margin {
         margin-bottom: 2rem;
     }
-    .review-text{
+
+    .review-text {
         display: none;
     }
-    .vedio-carousel-gap{
+
+    .vedio-carousel-gap {
         margin-top: 2rem
     }
-    .RecognitionSection{
+
+    .RecognitionSection {
         min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .con-card{
+
+    .con-card {
         display: flex;
         flex-direction: column;
     }
-    .footer-contact-div{
+
+    .footer-contact-div {
         height: 60%;
         width: 100%;
         display: flex;
@@ -867,7 +900,8 @@ body::-webkit-scrollbar {
         align-items: center;
         background-color: white;
     }
-    .footer-contact-phone-div{
+
+    .footer-contact-phone-div {
         height: 80%;
         width: 100%;
         display: flex;
@@ -875,7 +909,8 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .image-footer-header h1{
+
+    .image-footer-header h1 {
         font-size: 8pt;
     }
 }
@@ -920,19 +955,24 @@ body::-webkit-scrollbar {
     .card_heder_text {
         font-size: 15px;
     }
-    .colum-margin{
+
+    .colum-margin {
         margin-bottom: 20px;
     }
-    .review-text{
+
+    .review-text {
         display: none;
     }
-    .vedio-carousel-gap{
+
+    .vedio-carousel-gap {
         margin-top: 3rem;
     }
-    .text-font{
+
+    .text-font {
         font-size: 10px;
     }
-    .footer-contact-div{
+
+    .footer-contact-div {
         height: 60%;
         width: 100%;
         display: flex;
@@ -941,7 +981,8 @@ body::-webkit-scrollbar {
         align-items: center;
         background-color: white;
     }
-    .footer-contact-phone-div{
+
+    .footer-contact-phone-div {
         height: 80%;
         width: 50%;
         display: flex;
@@ -949,7 +990,8 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .image-footer-header h1{
+
+    .image-footer-header h1 {
         font-size: 12pt;
     }
 }
@@ -974,7 +1016,8 @@ body::-webkit-scrollbar {
     .about-card-body-text {
         font-size: 8px;
     }
-    .footer-contact-div{
+
+    .footer-contact-div {
         height: 60%;
         width: 100%;
         display: flex;
@@ -983,7 +1026,8 @@ body::-webkit-scrollbar {
         align-items: center;
         background-color: white;
     }
-    .footer-contact-phone-div{
+
+    .footer-contact-phone-div {
         height: 80%;
         width: 50%;
         display: flex;
@@ -991,7 +1035,7 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
