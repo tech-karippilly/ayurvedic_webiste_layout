@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: white;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -244,6 +244,13 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-heading-text {
+    color: black;
+    font-weight: bold;
+
+    
 }
 
 .custom-div_card {
