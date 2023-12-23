@@ -709,7 +709,18 @@ body::-webkit-scrollbar {
 .model-background {
     background-color: #598145;
     height: 80%;
+
 }
+.button-text{
+    color: #598145;
+    border: none;
+}
+.button-text:hover{
+    opacity: 0.7!important;
+    background-color:  white !important ;
+    color: #598145;
+}
+
 
 .modal-closebuttonContianer {
     width: 50px;
@@ -783,7 +794,7 @@ body::-webkit-scrollbar {
 
 .modal-content-container ul li {
     color: white;
-    font-size: 17pt;
+    font-size: 13pt;
     font-weight: 300;
 }
 
@@ -795,9 +806,10 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
     margin-top: 1rem;
+    padding-right: 29%;
 }
 
 .modal-badge {
