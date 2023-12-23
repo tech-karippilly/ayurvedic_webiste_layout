@@ -34,11 +34,11 @@ function handleScroll(event) {
 
 function scrollToSection(event){
     
-    // event.preventDefault();
-    // let section = document.getElementById('form-section');
-    // if (section) {
-    //     section.scrollIntoView({ behavior: 'smooth' });
-    //   }
+    event.preventDefault();
+    let section = document.getElementById('form-section');
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
 }
 function downArrowClick(){
     window.scrollBy(0,500)
