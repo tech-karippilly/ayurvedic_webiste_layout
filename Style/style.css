@@ -319,8 +319,9 @@ body::-webkit-scrollbar {
 }
 
 .card-p-text {
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 9pt;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-section2-p-text {
