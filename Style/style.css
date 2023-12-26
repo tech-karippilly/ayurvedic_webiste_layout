@@ -1,8 +1,19 @@
+:root {
+    /* #566573 */
+    --White:'#CC5500';
+    --DarkGreen:"#598145";
+    --lightGrey:'#D3D3D3';
+    --black:'#17202A';
+    --darkOrange:"#E3963E";
+    --secondaryBlue:"#5D6D7E";
+    --brown:'#8B0000'
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
+    background-color: var(--White);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 .common-color {
-    background-color: #598145;
+    background-color:var(--DarkGreen);
 }
 
 .borderTest {
@@ -39,9 +50,9 @@ body::-webkit-scrollbar {
 .header-bookNowBtn {
     width: 400px;
     height: 50px;
-    background-color:#598145;
+    background-color:var(--DarkGreen);
     border-radius: 8px;
-    color:white;
+    color:var(--White);
     margin-top: 1rem;
 }
 
@@ -81,7 +92,7 @@ body::-webkit-scrollbar {
 
 .about-section {
     height: 500px;
-    background-color: white;
+    background-color: var(--White);
 }
 
 
@@ -124,7 +135,7 @@ body::-webkit-scrollbar {
 .aboutCardTwo_cardContainer {
     background-color: rgb(226, 218, 218);
     border: 0px;
-    border-left: 5px solid green;
+    border-left: 5px solid var(--DarkGreen);
 }
 
 .about-condent-area {
@@ -157,16 +168,47 @@ body::-webkit-scrollbar {
     align-items: center;
     flex-direction: column;
 }
+.icon-button-container{
+    width: 20rem;
+    height: 4rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.icon_container{
+    width: 40%;
+    height: 4rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-button{
+    background-color: var(--White);
+    border: none;
+    width: 70%;
+    height: 4rem;
+    z-index: 1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+    
+}
 
 .btn:hover {
-    background-color: #598145;
+    background-color: var(--DarkGreen);
     opacity: 0.9;
 }
 
 .about-cardSectionCards {
     width: 100%;
     height: 270px;
-    background-color: #D3D3D3;
+    background-color: var(--lightGrey);
     border: 0;
     border-radius: 10px;
 }
@@ -270,7 +312,7 @@ body::-webkit-scrollbar {
 }
 
 .card-heading-text {
-    color: black;
+    color: var(--black);
     font-weight: bold;
 
     
@@ -348,7 +390,7 @@ body::-webkit-scrollbar {
 .review-reviews-header-icon-msg-div {
     width: 70%;
     height: 25%;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,7 +401,7 @@ body::-webkit-scrollbar {
 }
 
 .review-reviews-header-contents-text {
-    color: #b16d31;
+    color: var(--darkOrange);
 }
 
 .reviews-header-contents-text {
@@ -663,7 +705,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
+    background-color: var(--White);
 }
 
 .footer-contact-phone-div {
@@ -682,7 +724,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #598145;
+    background-color: var(--DarkGreen);
 }
 
 
@@ -696,7 +738,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: var(--White);
 }
 
 .con-icon {
@@ -711,7 +753,7 @@ body::-webkit-scrollbar {
 .con-icon button {
     width: 150px;
     margin-left: 10px;
-    background-color: #598145;
+    background-color: var(--DarkGreen);
 }
 
 .container-sm {
@@ -720,7 +762,7 @@ body::-webkit-scrollbar {
 
 
 .footer-text {
-    color: #5D6D7E;
+    color: var(--secondaryBlue);
     font-size: 15px;
 }
 
@@ -730,25 +772,25 @@ body::-webkit-scrollbar {
 }
 
 .model-background {
-    background-color: #598145;
+    background-color: var(--DarkGreen);
     height: 80%;
 
 }
 .button-text{
-    color: #598145;
+    color: var(--DarkGreen);
     border: none;
 }
 .button-text:hover{
     opacity: 0.7!important;
-    background-color:  white !important ;
-    color: #598145;
+    background-color:  var(--White) !important ;
+    color: var(--DarkGreen);
 }
 
 
 .modal-closebuttonContianer {
     width: 50px;
     height: 50px;
-    background-color: brown;
+    background-color: var(--brown);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -767,7 +809,7 @@ body::-webkit-scrollbar {
 }
 
 .btn-close {
-    color: white !important;
+    color: var(--White) !important;
 }
 
 .modal-body {
@@ -816,7 +858,7 @@ body::-webkit-scrollbar {
 }
 
 .modal-content-container ul li {
-    color: white;
+    color: var(--White);
     font-size: 13pt;
     font-weight: 300;
 }
@@ -928,7 +970,7 @@ body::-webkit-scrollbar {
     .modal-closebuttonContianer {
         width: 30px;
         height: 30px;
-        background-color: brown;
+        background-color: var(--brown);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -981,7 +1023,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: white;
+        background-color: var(--White);
     }
 
     .footer-contact-phone-div {
@@ -1028,7 +1070,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: white;
+        background-color: var(--var(--White));
     }
 
     .footer-contact-phone-div {
@@ -1133,7 +1175,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: white;
+        background-color: var(--White);
     }
 
     .footer-contact-phone-div {
@@ -1191,7 +1233,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: white;
+        background-color: var(--White);
     }
 
     .footer-contact-phone-div {
