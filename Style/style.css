@@ -1,19 +1,10 @@
-:root {
-    /* #566573 */
-    --White:'#CC5500';
-    --DarkGreen:"#598145";
-    --lightGrey:'#D3D3D3';
-    --black:'#17202A';
-    --darkOrange:"#E3963E";
-    --secondaryBlue:"#5D6D7E";
-    --brown:'#8B0000'
-}
+
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--White);
+    background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -23,7 +14,7 @@ body::-webkit-scrollbar {
 }
 
 .common-color {
-    background-color:var(--DarkGreen);
+    background-color:#598145;
 }
 
 .borderTest {
@@ -50,10 +41,11 @@ body::-webkit-scrollbar {
 .header-bookNowBtn {
     width: 400px;
     height: 50px;
-    background-color:var(--DarkGreen);
+    background-color:#598145;
     border-radius: 8px;
-    color:var(--White);
+    color:#FFFFFF;
     margin-top: 1rem;
+    border: none;
 }
 
 .header-icon-section{
@@ -92,7 +84,7 @@ body::-webkit-scrollbar {
 
 .about-section {
     height: 500px;
-    background-color: var(--White);
+    background-color: #FFFFFF;
 }
 
 
@@ -135,7 +127,7 @@ body::-webkit-scrollbar {
 .aboutCardTwo_cardContainer {
     background-color: rgb(226, 218, 218);
     border: 0px;
-    border-left: 5px solid var(--DarkGreen);
+    border-left: 5px solid #598145;
 }
 
 .about-condent-area {
@@ -171,44 +163,45 @@ body::-webkit-scrollbar {
 .icon-button-container{
     width: 20rem;
     height: 4rem;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .icon_container{
-    width: 40%;
+    width: 7rem;
     height: 4rem;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .icon-button{
-    background-color: var(--White);
+    background-color: #FFFFFF;
     border: none;
-    width: 70%;
+    width: 15rem;
     height: 4rem;
     z-index: 1;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    
-    
+    border-radius: 20px;
+    background-color: #598145;
+    font-size: 12px;
+    margin-left: -30px;
 }
 
 .btn:hover {
-    background-color: var(--DarkGreen);
+    background-color: #598145;
     opacity: 0.9;
 }
 
 .about-cardSectionCards {
     width: 100%;
     height: 270px;
-    background-color: var(--lightGrey);
+    background-color: #D3D3D3;
     border: 0;
     border-radius: 10px;
 }
@@ -222,7 +215,7 @@ body::-webkit-scrollbar {
 
 .about-card {
     width: 100%;
-    height: 80%;
+    height: 90%;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -237,12 +230,15 @@ body::-webkit-scrollbar {
 
 .about-card-header {
     width: 100%;
-    height: 20%;
+    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     border-radius: 6px;
+    background-color: #E3963E;
+    border: none;
+    
 }
 
 .about-card-header-icon {
@@ -312,7 +308,7 @@ body::-webkit-scrollbar {
 }
 
 .card-heading-text {
-    color: var(--black);
+    color:#000000;
     font-weight: bold;
 
     
@@ -390,7 +386,7 @@ body::-webkit-scrollbar {
 .review-reviews-header-icon-msg-div {
     width: 70%;
     height: 25%;
-    border: 1px solid var(--black);
+    border: 1px solid#000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,7 +397,7 @@ body::-webkit-scrollbar {
 }
 
 .review-reviews-header-contents-text {
-    color: var(--darkOrange);
+    color: #E3963E;
 }
 
 .reviews-header-contents-text {
@@ -705,7 +701,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--White);
+    background-color: #FFFFFF;
 }
 
 .footer-contact-phone-div {
@@ -724,7 +720,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--DarkGreen);
+    background-color: #598145;
 }
 
 
@@ -738,7 +734,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--White);
+    background-color: #FFFFFF;
 }
 
 .con-icon {
@@ -753,7 +749,7 @@ body::-webkit-scrollbar {
 .con-icon button {
     width: 150px;
     margin-left: 10px;
-    background-color: var(--DarkGreen);
+    background-color: #598145;
 }
 
 .container-sm {
@@ -762,7 +758,7 @@ body::-webkit-scrollbar {
 
 
 .footer-text {
-    color: var(--secondaryBlue);
+    color: #5D6D7E;
     font-size: 15px;
 }
 
@@ -772,25 +768,25 @@ body::-webkit-scrollbar {
 }
 
 .model-background {
-    background-color: var(--DarkGreen);
+    background-color: #598145;
     height: 80%;
 
 }
 .button-text{
-    color: var(--DarkGreen);
+    color: #598145;
     border: none;
 }
 .button-text:hover{
     opacity: 0.7!important;
-    background-color:  var(--White) !important ;
-    color: var(--DarkGreen);
+    background-color:  #FFFFFF !important ;
+    color: #598145;
 }
 
 
 .modal-closebuttonContianer {
     width: 50px;
     height: 50px;
-    background-color: var(--brown);
+    background-color: #8B0000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -809,7 +805,7 @@ body::-webkit-scrollbar {
 }
 
 .btn-close {
-    color: var(--White) !important;
+    color: #FFFFFF !important;
 }
 
 .modal-body {
@@ -858,7 +854,7 @@ body::-webkit-scrollbar {
 }
 
 .modal-content-container ul li {
-    color: var(--White);
+    color: #FFFFFF;
     font-size: 13pt;
     font-weight: 300;
 }
@@ -970,7 +966,7 @@ body::-webkit-scrollbar {
     .modal-closebuttonContianer {
         width: 30px;
         height: 30px;
-        background-color: var(--brown);
+        background-color: #8B0000;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1023,7 +1019,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: var(--White);
+        background-color: #FFFFFF;
     }
 
     .footer-contact-phone-div {
@@ -1070,7 +1066,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: var(--var(--White));
+        background-color: var(--#FFFFFF);
     }
 
     .footer-contact-phone-div {
@@ -1175,7 +1171,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: var(--White);
+        background-color: #FFFFFF;
     }
 
     .footer-contact-phone-div {
@@ -1233,7 +1229,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: var(--White);
+        background-color: #FFFFFF;
     }
 
     .footer-contact-phone-div {
