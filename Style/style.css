@@ -48,21 +48,27 @@ body::-webkit-scrollbar {
 
 .header-icon-section {
     width: 25%;
-    height: 3rem;
+    height: 6rem;
     position: absolute;
-    top: 1px;
+    top: 20px;
     left: 1rem;
     z-index: 1;
-    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding-left: 5%;
+}
 
+.header-log-img{
+    width: 70%;
+    height: 80%;
+    object-fit:cover;
 }
 
 .header-section-content-container {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     flex-direction: column;
     left: 7%;
@@ -74,19 +80,21 @@ body::-webkit-scrollbar {
     margin-bottom: 1rem;
 }
 
-
-
-
 .header-bookNowBtn:hover {
-    background-color: rgba(226, 218, 218, 0.9);
+    width: 400px;
+    height: 50px;
+    background-color: #598145;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    border: none;
+    opacity: 0.9;
 }
 
 .about-section {
     height: 500px;
     background-color: #FFFFFF;
 }
-
-
 
 .divider-margin {
     margin-top: 3rem;
@@ -340,6 +348,31 @@ body::-webkit-scrollbar {
     opacity: 0.6;
 }
 
+.model-card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.model-card-header-container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.modal-card-body-contianer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*********** CARD SECTION CSS ***************/
 
@@ -358,8 +391,6 @@ body::-webkit-scrollbar {
 .review-reviews-container {
     height: 68vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     padding: 1px;
 }
@@ -406,17 +437,17 @@ body::-webkit-scrollbar {
     font-size: 11px;
 }
 
-.review-reviews-icon-container {
+/* .review-reviews-icon-container {
     width: 100%;
     height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .review-reviews-reviews-section {
     width: 100%;
-    height: 75%;
+    height: 100%;
     display: flex;
     overflow-y: scroll;
     flex-direction: column;
@@ -431,7 +462,7 @@ body::-webkit-scrollbar {
 
 .review-reviews-reviews-items-container {
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     padding: 5px;
     margin: 2px;
     display: flex;
@@ -467,7 +498,6 @@ body::-webkit-scrollbar {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    overflow-y: scroll;
     flex-direction: column;
     padding: 6px;
 }
@@ -672,7 +702,7 @@ body::-webkit-scrollbar {
 }
 
 .RecognitionSection {
-    min-height: 50vh;
+    min-height: 20vh;
 
 }
 
@@ -785,14 +815,16 @@ body::-webkit-scrollbar {
 }
 
 .button-text {
-    color: #598145;
+    background-color: #598145;
+    color: white;
     border: none;
+    height: 3.5rem;
 }
 
 .button-text:hover {
-    opacity: 0.7 !important;
-    background-color: #FFFFFF !important;
-    color: #598145;
+    background-color: #598145;
+    color: white;
+    border: none;
 }
 
 
@@ -883,7 +915,7 @@ body::-webkit-scrollbar {
     align-items: center;
     flex-direction: column;
     margin-top: 1rem;
-    padding-right: 29%;
+    padding: 1.6rem;
 }
 
 .modal-badge {
@@ -918,10 +950,10 @@ body::-webkit-scrollbar {
     height: 100%;
     display: flex;
     flex-direction: column;
-
     padding: 5px;
     overflow: scroll;
     color: #000000;
+    margin-left: 1rem;
 }
 
 #content-div h4 {
@@ -957,6 +989,11 @@ body::-webkit-scrollbar {
 
 #down-arrow-icon {
     animation: bounce 2s infinite;
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: #5D6D7E;
 }
 
 @keyframes bounce {
@@ -1004,16 +1041,15 @@ body::-webkit-scrollbar {
         left: 50%;
         margin-bottom: 20px;
     }
-
     .header-bookNowBtn {
-        width: 100px;
-        height: 30px;
-        background-color: rgba(0, 0, 0, 0.1);
-        border: 1px solid white;
+        width: 400px;
+        height: 50px;
+        background-color: #598145;
         border-radius: 8px;
-        color: white;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        border: none;
     }
-
     .about-section {
         height: 1000px;
         background-color: rgb(242, 236, 236);
@@ -1109,6 +1145,37 @@ body::-webkit-scrollbar {
         font-size: 8pt;
     }
 
+    .header-icon-section {
+        width: 70%;
+        height: 7rem;
+        position: absolute;
+        top: 20px;
+        left: 1rem;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding-left: 5%;
+    }
+    
+    .header-log-img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .header-section-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        left: 7%;
+    }
+    .header-bookNowBtn{
+
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1124,22 +1191,9 @@ body::-webkit-scrollbar {
         min-height: 100vh;
         max-height: auto;
         overflow: scroll;
-        border: 1px solid red;
     }
 
-    .header-icon-section {
-        width: 25%;
-        height: 1rem;
-        position: absolute;
-        top: 1px;
-        left: 6rem;
-        z-index: 1;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-    }
 
     .about-section {
         height: 1000px;
@@ -1215,25 +1269,40 @@ body::-webkit-scrollbar {
     .image-footer-header h1 {
         font-size: 12pt;
     }
+
+    .header-icon-section {
+        width: 50%;
+        height: 7rem;
+        position: absolute;
+        top: 20px;
+        left: 1rem;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding-left: 5%;
+    }
+    
+    .header-log-img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .header-section-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        left: 7%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     body {
         font-size: 18px;
-    }
-
-    .header-icon-section {
-        width: 25%;
-        height: 3rem;
-        position: absolute;
-        top: 1px;
-        left: 3rem;
-        z-index: 1;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
     }
 
     .about-card-body-text {
@@ -1275,6 +1344,34 @@ body::-webkit-scrollbar {
         --bs-modal-width: 80%;
     }
 
+    .header-icon-section {
+        width: 40%;
+        height: 7rem;
+        position: absolute;
+        top: 20px;
+        left: 1rem;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding-left: 5%;
+    }
+    
+    .header-log-img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .header-section-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        left: 7%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1292,6 +1389,34 @@ body::-webkit-scrollbar {
 
     .about-card-header-title-smaller-text {
         font-size: 7px;
+    }
+
+    .header-icon-section {
+        width: 25%;
+        height: 6rem;
+        position: absolute;
+        top: 20px;
+        left: 1rem;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding-left: 5%;
+    }
+    
+    .header-log-img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .header-section-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        left: 7%;
     }
 }
 
