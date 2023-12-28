@@ -1027,6 +1027,61 @@ body::-webkit-scrollbar {
         max-height: 80%;
     }
 
+    .card-heading-text{
+        font-size: 11pt;
+    }
+    
+    .about-cardSection{
+        height: 200vh !important;
+    }
+
+    .aboutCardtwo {
+        height: 480px;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutCardtwo p {
+        font-size: 15pt !important;
+
+    }
+
+    .aboutCardTwo_cardContainer {
+        background-color: rgb(226, 218, 218);
+        border: 0px;
+        border-left: 5px solid #598145;
+    }
+
+    .card-body p{
+        font-size: 13pt !important;
+        margin: 0;
+    }
+
+    .aboutCardTwo_imageContainer {
+        width: 90%;
+        height: 80px;
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .header-bookNowBtn {
+        width: 21rem;
+        height: 50px;
+        background-color: #598145;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        font-size: 12pt;
+        border: none;
+    }
+
+
     .modal-closebuttonContianer {
         width: 30px;
         height: 30px;
@@ -1193,7 +1248,13 @@ body::-webkit-scrollbar {
         overflow: scroll;
     }
 
+    .card-heading-text{
+        font-size: 11pt;
+    }
 
+    .about-cardSection{
+        height: 200vh !important;
+    }
 
     .about-section {
         height: 1000px;
@@ -1206,6 +1267,54 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
+
+
+    .aboutCardtwo {
+        height: 480px;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutCardtwo p {
+        font-size: 15pt !important;
+
+    }
+
+    .aboutCardTwo_cardContainer {
+        background-color: rgb(226, 218, 218);
+        border: 0px;
+        border-left: 5px solid #598145;
+    }
+
+    .card-body p{
+        font-size: 13pt !important;
+        margin: 0;
+    }
+
+    .aboutCardTwo_imageContainer {
+        width: 90%;
+        height: 80px;
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .header-bookNowBtn {
+        width: 21rem;
+        height: 50px;
+        background-color: #598145;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        font-size: 12pt;
+        border: none;
+    }
+
 
     .cardContainer {
         width: 100%;
@@ -1305,6 +1414,9 @@ body::-webkit-scrollbar {
         font-size: 18px;
     }
 
+    .card-heading-text{
+        font-size: 15pt;
+    }
     .about-card-body-text {
         font-size: 10px;
     }
@@ -1320,6 +1432,54 @@ body::-webkit-scrollbar {
     .about-card-body-text {
         font-size: 8px;
     }
+
+
+    .aboutCardtwo {
+        height: 480px;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutCardtwo p {
+        font-size: 10pt !important;
+
+    }
+
+    .aboutCardTwo_cardContainer {
+        background-color: rgb(226, 218, 218);
+        border: 0px;
+        border-left: 5px solid #598145;
+    }
+
+    .card-body p{
+        font-size: 10pt !important;
+        margin: 0;
+    }
+
+    .aboutCardTwo_imageContainer {
+        width: 90%;
+        height: 80px;
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .header-bookNowBtn {
+        width: 21rem;
+        height: 50px;
+        background-color: #598145;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        font-size: 12pt;
+        border: none;
+    }
+
 
     .footer-contact-div {
         height: 60%;
@@ -1391,6 +1551,51 @@ body::-webkit-scrollbar {
         font-size: 7px;
     }
 
+    .aboutCardtwo {
+        height: 480px;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutCardtwo p {
+        font-size: 13pt !important;
+
+    }
+
+    .aboutCardTwo_cardContainer {
+        background-color: rgb(226, 218, 218);
+        border: 0px;
+        border-left: 5px solid #598145;
+    }
+
+    .card-body p{
+        font-size: 12pt !important;
+        margin: 0;
+    }
+
+    .aboutCardTwo_imageContainer {
+        width: 90%;
+        height: 80px;
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .header-bookNowBtn {
+        width: 21rem;
+        height: 50px;
+        background-color: #598145;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        border: none;
+    }
+
     .header-icon-section {
         width: 25%;
         height: 6rem;
@@ -1424,4 +1629,50 @@ body::-webkit-scrollbar {
     body {
         font-size: 22px;
     }
+
+    .aboutCardtwo {
+        height: 480px;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutCardtwo p {
+        font-size: 16pt !important;
+
+    }
+
+    .aboutCardTwo_cardContainer {
+        background-color: rgb(226, 218, 218);
+        border: 0px;
+        border-left: 5px solid #598145;
+    }
+
+    .card-body p{
+        font-size: 13pt !important;
+        margin: 0;
+    }
+
+    .aboutCardTwo_imageContainer {
+        width: 90%;
+        height: 80px;
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .header-bookNowBtn {
+        width: 21rem;
+        height: 50px;
+        background-color: #598145;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        border: none;
+    }
+
 }
