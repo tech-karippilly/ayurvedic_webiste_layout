@@ -769,12 +769,14 @@ body::-webkit-scrollbar {
 }
 
 .model-background {
-    background-color: #598145;
+    background-color: white;
     height: 80%;
 
 }
 .button-text{
-    color: #598145;
+    font-size: 16pt;
+    background: #598145;
+    color: white;
     border: none;
 }
 .button-text:hover{
@@ -855,7 +857,7 @@ body::-webkit-scrollbar {
 }
 
 .modal-content-container ul li {
-    color: #FFFFFF;
+    color: black;
     font-size: 13pt;
     font-weight: 300;
 }
@@ -868,7 +870,7 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
     margin-top: 1rem;
     padding-right: 29%;
