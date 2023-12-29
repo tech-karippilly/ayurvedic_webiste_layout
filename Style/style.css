@@ -353,6 +353,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .model-card-header-container{
     width: 100%;
@@ -361,6 +362,8 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+
+
 }
 .modal-card-body-contianer{
     width: 100%;
@@ -369,6 +372,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -865,6 +869,7 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     flex-direction: row;
+    
 }
 
 .modal-imageContainer {
@@ -890,18 +895,17 @@ body::-webkit-scrollbar {
     width: 50%;
     height: 60vh;
     padding: 5px;
-    overflow-x: scroll;
+
 }
 
-.modal-content-container::-webkit-scrollbar {
-    display: none;
-    scroll-behavior: smooth;
-}
 
 .modal-content-container ul li {
     color: black;
-    font-size: 13pt;
+    font-size: 18pt;
     font-weight: 300;
+    text-align: start;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .modal-content-container ul li span {
@@ -994,6 +998,10 @@ body::-webkit-scrollbar {
 .footer-text a{
     text-decoration: none;
     color: #5D6D7E;
+}
+
+.formsection_content{
+    height: 34% !important; 
 }
 
 @keyframes bounce {
@@ -1297,6 +1305,108 @@ body::-webkit-scrollbar {
         font-size: 13pt !important;
     }
 
+    .modal{
+        --bs-modal-width: 100%;
+    }
+    .modal-content-container {
+        width: 50%;
+        height: 40vh;
+        padding: 5px;
+    
+    }
+    
+    .modal-content-container ul li {
+        color: black;
+        font-size: 7pt;
+        font-weight: 300;
+        text-align: start;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .modal-imageContainer {
+        width: 50%;
+        height: 40vh;
+        padding: 10px;
+    
+    }
+    
+    .modal-content-container ul li span {
+        font-weight: bold;
+    }
+
+
+    .modal-closebuttonContianer {
+        width: 50px;
+        height: 50px;
+        background-color: #8B0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right !important;
+        border: none;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+    }
+
+    .model-card-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .model-card-header-container{
+        width: 100%;
+        height: 4rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+    }
+    .modal-card-body-contianer{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .model-card-header-container h2{
+        font-size: 15pt;
+        margin: 0;
+        padding: 0;
+    }
+    #content-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        overflow: scroll;
+        color: #000000;
+        margin-left: 1rem;
+        margin-top: 10px;
+        
+    }
+    
+    #content-div h4 {
+        font-weight: 600;
+        font-size: 8pt;
+    }
+    
+    #content-div p {
+        font-weight: 400 !important;
+        font-size: 7pt;
+    }
+    
+    #content-div::-webkit-scrollbar {
+        display: none;
+    }
+
 
 }
 
@@ -1546,6 +1656,102 @@ body::-webkit-scrollbar {
     .formsection_content_p{
         font-size: 13pt !important;
     }
+
+    .modal{
+        --bs-modal-width: 100%;
+    }
+    .modal-content-container {
+        width: 50%;
+        height: 60vh;
+        padding: 5px;
+    
+    }
+    
+    .modal-content-container ul li {
+        color: black;
+        font-size: 10pt;
+        font-weight: 300;
+        text-align: start;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .modal-content-container ul li span {
+        font-weight: bold;
+    }
+
+
+    .modal-closebuttonContianer {
+        width: 50px;
+        height: 50px;
+        background-color: #8B0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right !important;
+        border: none;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+    }
+
+    .model-card-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .model-card-header-container{
+        width: 100%;
+        height: 4rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+    }
+    .modal-card-body-contianer{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .model-card-header-container h2{
+        font-size: 15pt;
+        margin: 0;
+        padding: 0;
+    }
+    #content-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        overflow: scroll;
+        color: #000000;
+        margin-left: 1rem;
+        margin-top: 10px;
+        
+    }
+    
+    #content-div h4 {
+        font-weight: 600;
+        font-size: 9pt;
+    }
+    
+    #content-div p {
+        font-weight: 400 !important;
+        font-size: 8pt;
+    }
+    
+    #content-div::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1727,6 +1933,100 @@ body::-webkit-scrollbar {
         font-size: 13pt !important;
     }
 
+
+    .modal-content-container {
+        width: 50%;
+        height: 60vh;
+        padding: 5px;
+    
+    }
+    
+    
+    .modal-content-container ul li {
+        color: black;
+        font-size: 11pt;
+        font-weight: 300;
+        text-align: start;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .modal-content-container ul li span {
+        font-weight: bold;
+    }
+
+
+    .modal-closebuttonContianer {
+        width: 50px;
+        height: 50px;
+        background-color: #8B0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right !important;
+        border: none;
+        position: absolute;
+        top: -20px;
+        left: 95%;
+    }
+
+    .model-card-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .model-card-header-container{
+        width: 100%;
+        height: 4rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+    }
+    .modal-card-body-contianer{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .model-card-header-container h2{
+        font-size: 15pt;
+        margin: 0;
+        padding: 0;
+    }
+    #content-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        overflow: scroll;
+        color: #000000;
+        margin-left: 1rem;
+        margin-top: 10px;
+        
+    }
+    
+    #content-div h4 {
+        font-weight: 600;
+        font-size: 9pt;
+    }
+    
+    #content-div p {
+        font-weight: 400 !important;
+        font-size: 8pt;
+    }
+    
+    #content-div::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1843,6 +2143,86 @@ body::-webkit-scrollbar {
         font-size: 15pt !important;
     }
 
+    .modal-content-container {
+        width: 50%;
+        height: 60vh;
+        padding: 5px;
+    
+    }
+    
+    
+    .modal-content-container ul li {
+        color: black;
+        font-size: 13pt;
+        font-weight: 300;
+        text-align: start;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .modal-content-container ul li span {
+        font-weight: bold;
+    }
+
+    .model-card-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .model-card-header-container{
+        width: 100%;
+        height: 4rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+    }
+    .modal-card-body-contianer{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .model-card-header-container h2{
+        font-size: 15pt;
+        margin: 0;
+        padding: 0;
+    }
+    #content-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        overflow: scroll;
+        color: #000000;
+        margin-left: 1rem;
+        margin-top: 10px;
+        
+    }
+    
+    #content-div h4 {
+        font-weight: 600;
+        font-size: 12pt;
+    }
+    
+    #content-div p {
+        font-weight: 400 !important;
+        font-size: 10pt;
+    }
+    
+    #content-div::-webkit-scrollbar {
+        display: none;
+    }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -1918,6 +2298,55 @@ body::-webkit-scrollbar {
     }
     .formsection_content_p{
         font-size: 15pt !important;
+    }
+
+    .modal-content-container {
+        width: 50%;
+        height: 60vh;
+        padding: 5px;
+    
+    }
+    
+    
+    .modal-content-container ul li {
+        color: black;
+        font-size: 15pt;
+        font-weight: 300;
+        text-align: start;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .modal-content-container ul li span {
+        font-weight: bold;
+    }
+
+    .model-card-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red !important;
+    }
+    .model-card-header-container{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        border: 1px solid red;
+    }
+    .modal-card-body-contianer{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
     }
 
 }
