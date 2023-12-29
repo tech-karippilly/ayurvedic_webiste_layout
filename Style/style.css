@@ -319,8 +319,6 @@ body::-webkit-scrollbar {
 .card-heading-text {
     color: #000000;
     font-weight: bold;
-
-
 }
 
 .custom-div_card {
@@ -703,6 +701,8 @@ body::-webkit-scrollbar {
 
 .RecognitionSection {
     min-height: 20vh;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -1080,7 +1080,19 @@ body::-webkit-scrollbar {
         font-size: 12pt;
         border: none;
     }
-
+    .card-header-container {
+        height:4rem !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card-heading-text {
+        color: #000000;
+        font-weight: bold;
+        font-size: 20pt !important;
+    }
 
     .modal-closebuttonContianer {
         width: 30px;
@@ -1096,6 +1108,7 @@ body::-webkit-scrollbar {
         left: 50%;
         margin-bottom: 20px;
     }
+
     .header-bookNowBtn {
         width: 400px;
         height: 50px;
@@ -1105,6 +1118,7 @@ body::-webkit-scrollbar {
         margin-top: 1rem;
         border: none;
     }
+
     .about-section {
         height: 1000px;
         background-color: rgb(242, 236, 236);
@@ -1147,6 +1161,16 @@ body::-webkit-scrollbar {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .review-reviews-reviews-items-container {
+        width: 100%;
+        height: 13vh;
+        padding: 5px;
+        margin: 2px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 3px;
     }
 
     .card-header-text {
@@ -1227,9 +1251,34 @@ body::-webkit-scrollbar {
         flex-direction: column;
         left: 7%;
     }
-    .header-bookNowBtn{
 
+    .custom-div_card_image{
+        height: 70% !important;
+        overflow: hidden;
     }
+
+    .RecognitionSection {
+        min-height: 100vh !important; 
+        display: flex;
+        padding: 4rem;
+    }
+
+    .recognition-card {
+        width: 5rem;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .recognition-card_image{
+        width: 100%;
+        height: 30%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
 
 }
 
@@ -1315,6 +1364,15 @@ body::-webkit-scrollbar {
         border: none;
     }
 
+    .review-reviews-reviews-items-container {
+        width: 100%;
+        height: 13vh;
+        padding: 5px;
+        margin: 2px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 3px;
+    }
 
     .cardContainer {
         width: 100%;
@@ -1322,6 +1380,25 @@ body::-webkit-scrollbar {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .custom-div_card {
+        height: 400px;
+       
+    }
+
+    .card-header-container {
+        height: 16%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .card-heading-text {
+        color: #000000;
+        font-weight: bold;
+        font-size: 20pt;
     }
 
     .flex-container {
@@ -1407,6 +1484,32 @@ body::-webkit-scrollbar {
         left: 7%;
     }
 
+    .custom-div_card_image{
+        height: 65% !important;
+        overflow: hidden;
+    }
+
+    .RecognitionSection {
+        min-height: 60vh !important; 
+        display: flex;
+        padding: 4rem;
+    }
+
+    .recognition-card {
+        width: 5rem;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .recognition-card_image{
+        width: 100%;
+        height: 30%;
+        object-fit: cover;
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1431,6 +1534,11 @@ body::-webkit-scrollbar {
 
     .about-card-body-text {
         font-size: 8px;
+    }
+
+    .custom-div_card_image{
+        height: 55% !important;
+        overflow: hidden;
     }
 
 
@@ -1468,7 +1576,15 @@ body::-webkit-scrollbar {
         align-items: center;
         padding: 3px;
     }
-
+    .review-reviews-reviews-items-container {
+        width: 100%;
+        height: 13vh;
+        padding: 5px;
+        margin: 2px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 3px;
+    }
     .header-bookNowBtn {
         width: 21rem;
         height: 50px;
@@ -1480,6 +1596,11 @@ body::-webkit-scrollbar {
         border: none;
     }
 
+
+    .custom-div_card {
+        height: 510px;
+        padding: 1rem;
+    }
 
     .footer-contact-div {
         height: 60%;
@@ -1530,6 +1651,27 @@ body::-webkit-scrollbar {
         align-items: start;
         flex-direction: column;
         left: 7%;
+    }
+    
+    .RecognitionSection {
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .recognition-card {
+        width: 5rem;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        overflow: hidden;
+    }
+    .recognition-card_image{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
 }
@@ -1623,6 +1765,16 @@ body::-webkit-scrollbar {
         flex-direction: column;
         left: 7%;
     }
+    .custom-div_card_image{
+        height: 64% !important;
+        overflow: hidden;
+    }
+    .RecognitionSection {
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+    
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1673,6 +1825,17 @@ body::-webkit-scrollbar {
         color: #FFFFFF;
         margin-top: 1rem;
         border: none;
+    }
+
+    .custom-div_card_image{
+        height: 65% !important;
+        overflow: hidden;
+    }
+    .RecognitionSection {
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+    
     }
 
 }
