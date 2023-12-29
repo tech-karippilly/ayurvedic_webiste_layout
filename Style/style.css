@@ -1018,6 +1018,7 @@ body::-webkit-scrollbar {
 
 
 @media (max-width: 575.98px) {
+
     body {
         font-size: 13px;
     }
@@ -1280,6 +1281,23 @@ body::-webkit-scrollbar {
     }
 
 
+    .card-header-container {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formsection_content{
+        height: 48%;
+    }
+    
+    .formsection_content_p{
+        font-size: 13pt !important;
+    }
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1510,6 +1528,24 @@ body::-webkit-scrollbar {
         object-fit: cover;
         overflow: hidden;
     }
+
+
+
+    .card-header-container {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formsection_content{
+        height: 48%;
+    }
+    
+    .formsection_content_p{
+        font-size: 13pt !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1668,10 +1704,27 @@ body::-webkit-scrollbar {
         margin: 10px;
         overflow: hidden;
     }
+
     .recognition-card_image{
         width: 100%;
         height: 100%;
         object-fit: contain;
+    }
+
+    .card-header-container {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formsection_content{
+        height: 48%;
+    }
+
+    .formsection_content_p{
+        font-size: 13pt !important;
     }
 
 }
@@ -1775,6 +1828,21 @@ body::-webkit-scrollbar {
         justify-content: center;
     
     }
+
+    .card-header-container {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formsection_content{
+        height: 48%;
+    }
+    .formsection_content_p{
+        font-size: 15pt !important;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -1836,6 +1904,20 @@ body::-webkit-scrollbar {
         display: flex;
         justify-content: center;
     
+    }
+
+    .card-header-container {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formsection_content{
+        height: 48%;
+    }
+    .formsection_content_p{
+        font-size: 15pt !important;
     }
 
 }
