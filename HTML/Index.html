@@ -35,15 +35,18 @@
             </div> -->
             <div class="carousel-inner">
                 <div class="carousel-item active header-CarouselItems">
-                    <div class="header-icon-section">
-                        <img src="../images/WellnessLoka-Horizontal-Logo-White.png" />
+                    <div class="header-icon-section ">
+                        <a href="https://wellnessloka.com/" target="_blank">
+                            <img src="../images/WellnessLoka-Horizontal-Logo-White.png" class='header-log-img' />
+                        </a>
+
                     </div>
                     <img src="../images/Sirodhara Main.jpg" class="d-block header-CaroselItemImage" alt="...">
                     <div class="carousel-caption top-0 mt-5 p-2 pt-5 header-section-content-container ">
                         <!-- <h5 class="text-light text-uppercase text-sm mt-5 fs-5">WELLNESSLOKA</h5> -->
-                        <p class="lead text-light fw-bolder fs-1"> Discover and book authentic<br>Ayurveda Retreats in
+                        <h2 class="lead text-light fw-bolder fs-1"> Discover and book authentic<br>Ayurveda Retreats in
                             Kerala
-                        </p>
+                        </h2>
                         <p class=" text-light fw-light fs-5">Avail complimentary consultation with our Ayurveda expert
                             to find<br>
                             the right retreat that matches your requirements and budget, <br>
@@ -103,8 +106,6 @@
 
         </div>
     </section>
-
-
 
 
     <section class="about-cardSection  card-background  ">
@@ -243,12 +244,7 @@
 
 
 
-
-
-
-
-    <!-- ABOUT SECTION STARTS -->
-    <section class="about-section  divider-margin  ">
+    <section class="about-section  divider-margin   ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-12 h-100 ">
@@ -335,30 +331,31 @@
 
                     </div>
                 </div>
-
-                <div class="col-md-6 col-xs-12 col-sm-12 h-100 ">
+                <div class="col-md-6 col-xs-12 col-sm-12 h-100  ">
                     <div class="aboutCardtwo">
-                        <span class="badge common-color mt-3 pt-2"></span>
-                        <p class="mt-3 text-large fw-medium text-justify"> Book a FREE consultation with an Ayurveda
-                            expert to find the right retreat for you.</p>
-
+                        <p class=" mt-3  text-justify "> Book a FREE consultation with an Ayurveda
+                            expert to find the right retreat for you .</p>
                         <div class="card aboutCardTwo_cardContainer">
                             <div class="card-body fs-5">
-                                Choose from 150+ handpicked Ayurvedic wellness centres based on your preferences and
-                                budget.
-                                <br>
-                                Our Ayurvedic wellness experts will help you find the right retreat understanding your
-                                wellness and healing goals.
-
+                                <p>
+                                    Choose from 150+ handpicked Ayurvedic wellness centres based on your preferences and
+                                    budget.
+                                    <br>
+                                    Our Ayurvedic wellness experts will help you find the right retreat understanding
+                                    your
+                                    wellness and healing goals.
+                                </p>
                             </div>
                         </div>
+
                         <div class=" about-condent-area  "></div>
-                        <div class=" mt-4  aboutCardTwo_imageContainer   ">
+                        <div class=" mt-4  aboutCardTwo_imageContainer    ">
                             <div class="icon-button-container">
                                 <!-- <div class="icon_container">
                                     <i class="fa-regular fa-calendar-days" style="font-size: 30pt;"></i>
                                 </div> -->
-                                <button type="submit" class="header-bookNowBtn">BOOK FREE CONSULTATION
+                                <button type="submit" class="header-bookNowBtn" onclick="scrollToFormSection()">BOOK
+                                    FREE CONSULTATION
                                 </button>
                             </div>
 
@@ -369,10 +366,8 @@
         </div>
     </section>
 
-    <!-- ABOUT SECTION CARDS -->>
 
-
-    <div class=" card_container p-3  card-background divider-margin  ">
+    <div class=" card_container p-3  card-background divider-margin   ">
 
         <div class="card-header-container ">
             <h2 class=" fw-bold card-heading-text  card-header-text">Choose From Over 4500 Retreats </h2>
@@ -384,7 +379,7 @@
                 <div class="col-md-3 col-sm-6 col-12 colum-margin">
                     <div class="card p-2 custom-div_card" data-card-id="Panchakarma" style="cursor: -webkit-grab; ">
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/239_09/1/Ayurveda-Retreat.jpg" alt="">
                         </div>
 
@@ -408,38 +403,49 @@
 
 
                 <div class="content hidden" id="Panchakarma">
-                    <div id="image-div">
-                        <img class="img-fluid rounded-4 content-img" src="../images/239_09/1/Ayurveda-Retreat.jpg"
-                            alt="Panchakarma Image" id="panchakarmaImage">
-                    </div>
-                    <div id="content-div">
 
-                        <div class="modal-header-container ">
-                            <h1 class="text-light mt-4 text-uppercase">Panchakarma Retreats</h1>
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+                            <h2 class="text-dark mt-4 text-uppercase">Panchakarma Retreats</h2>
                         </div>
-                        &nbsp;
+                        <div class="modal-card-body-contianer">
 
-                        <h4>For Whom:</h4>
-                        <p>Panchakarma is ideal for individuals seeking a holistic detoxification experience. It is
-                            especially
-                            beneficial for those experiencing fatigue, digestive issues, stress, and overall imbalance.
-                        </p>
+                            <div id="image-div">
+                                <img class="img-fluid rounded-4 content-img"
+                                    src="../images/239_09/1/Ayurveda-Retreat.jpg" alt="Panchakarma Image"
+                                    id="panchakarmaImage">
+                            </div>
+                            <div id="content-div">
+                                <h4>For Whom:</h4>
+                                <p>Panchakarma is ideal for individuals seeking a holistic detoxification experience. It
+                                    is
+                                    especially
+                                    beneficial for those experiencing fatigue, digestive issues, stress, and overall
+                                    imbalance.
+                                </p>
 
-                        <h4>Treatment Details:</h4>
-                        <p>Panchakarma involves a series of therapeutic procedures that cleanse the body of toxins. This
-                            comprehensive
-                            process spans several days, including massage, herbal medicines, and dietary adjustments.
-                        </p>
+                                <h4>Treatment Details:</h4>
+                                <p>Panchakarma involves a series of therapeutic procedures that cleanse the body of
+                                    toxins. This
+                                    comprehensive
+                                    process spans several days, including massage, herbal medicines, and dietary
+                                    adjustments.
+                                </p>
 
-                        <h4>Wellness Centers:</h4>
-                        <p>Ayurvedic resorts and hospitals specializing in Panchakarma procedure.</p>
+                                <h4>Wellness Centers:</h4>
+                                <p>Ayurvedic resorts and hospitals specializing in Panchakarma procedure.</p>
 
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts will aid you to find the retreat that specializes in Panchakarma from the curated
-                            collection
-                            of
-                            centers to address your unique health needs, preferences, and budget.</p>
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts will aid you to find the retreat that specializes in Panchakarma from the
+                                    curated
+                                    collection
+                                    of
+                                    centers to address your unique health needs, preferences, and budget.</p>
+                            </div>
+
+                        </div>
                     </div>
+
 
                 </div>
 
@@ -448,7 +454,7 @@
                 <div class="col-md-3 col-sm-6 col-12 colum-margin">
                     <div class="card p-2 custom-div_card" data-card-id="Rejuvenation" style="cursor: -webkit-grab; ">
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/239_09/1/Ayurveda-Shirodhara.jpg" alt="">
                         </div>
 
@@ -472,39 +478,53 @@
 
 
                 <div class="content hidden" id="Rejuvenation">
-                    <div id="image-div">
-                        <img class="img-fluid rounded-4 content-img" src="../images/239_09/1/Ayurveda-Shirodhara.jpg"
-                            alt="Rejuvenation Image" id="rejuvenationImage">
+
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+                            <h2 class="text-uppercase">Rejuvenation Retreats</h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+
+                            <div id="image-div">
+                                <img class="img-fluid rounded-4 content-img"
+                                    src="../images/239_09/1/Ayurveda-Shirodhara.jpg" alt="Rejuvenation Image"
+                                    id="rejuvenationImage">
+                            </div>
+                            <div id="content-div">
+
+
+                                <h4>For Whom:</h4>
+                                <p>Rejuvenation is perfect for those feeling physically and mentally drained, or
+                                    individuals
+                                    seeking
+                                    preventive
+                                    care. It's an excellent choice for stress relief, improved energy, and overall
+                                    well-being.
+                                </p>
+
+                                <h4>Treatment Details:</h4>
+                                <p>Rejuvenation treatments encompass various Ayurvedic therapies, including massage,
+                                    herbal
+                                    medicines, and
+                                    dietary recommendations. The duration varies, but typically ranges from a few days
+                                    to a
+                                    couple of weeks.
+                                </p>
+
+                                <h4>Wellness Centers:</h4>
+                                <p>Wellness resorts and holistic healing centers are suitable for personalized
+                                    rejuvenation
+                                    experiences.</p>
+
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts guide you to select the retreat from the curated collection of centers
+                                    that match
+                                    with your
+                                    specific wellness goals, preferences, and budget.</p>
+                            </div>
+
+                        </div>
                     </div>
-
-                    <div id="content-div">
-                        <h5 class="text-uppercase">Rejuvenation Retreats</h5>
-                        &nbsp;
-
-                        <h4>For Whom:</h4>
-                        <p>Rejuvenation is perfect for those feeling physically and mentally drained, or individuals
-                            seeking
-                            preventive
-                            care. It's an excellent choice for stress relief, improved energy, and overall well-being.
-                        </p>
-
-                        <h4>Treatment Details:</h4>
-                        <p>Rejuvenation treatments encompass various Ayurvedic therapies, including massage, herbal
-                            medicines, and
-                            dietary recommendations. The duration varies, but typically ranges from a few days to a
-                            couple of weeks.
-                        </p>
-
-                        <h4>Wellness Centers:</h4>
-                        <p>Wellness resorts and holistic healing centers are suitable for personalized rejuvenation
-                            experiences.</p>
-
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts guide you to select the retreat from the curated collection of centers that match
-                            with your
-                            specific wellness goals, preferences, and budget.</p>
-                    </div>
-
 
                 </div>
 
@@ -514,7 +534,7 @@
                     <div class="card p-2 custom-div_card" data-card-id="Detoxification" style="cursor: -webkit-grab; ">
 
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/239_09/1/Panchakarma_Kerala.jpg" alt="">
                         </div>
 
@@ -537,45 +557,56 @@
                 </div>
 
                 <div class="content hidden" id="Detoxification">
-                    <div id="image-div">
-                        <img src="../images/239_09/1/Panchakarma_Kerala.jpg" class="img-fluid rounded-4 content-img"
-                            alt="Detoxification Image" id="detoxificationImage">
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+                            <h2 class="text-uppercase">Detoxification Retreats</h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+
+                            <div id="image-div">
+                                <img src="../images/239_09/1/Panchakarma_Kerala.jpg"
+                                    class="img-fluid rounded-4 content-img" alt="Detoxification Image"
+                                    id="detoxificationImage">
+                            </div>
+                            <div id="content-div">
+
+                                <h4>For Whom:</h4>
+                                <p>Detoxification is recommended for those struggling with health issues like digestive
+                                    disorders, and low
+                                    energy levels. It's a suitable choice for individuals looking to kickstart a
+                                    healthier
+                                    lifestyle.</p>
+
+                                <h4>Treatment Details:</h4>
+                                <p>Ayurvedic detox involves time-tested purification techniques that eliminate
+                                    accumulated
+                                    toxins from the
+                                    body.
+                                    The duration varies, but programs typically span two weeks or more.</p>
+
+                                <h4>Wellness Centers:</h4>
+                                <p>Detox-focused resorts and Ayurveda Healing centers are ideal for those seeking a
+                                    revitalizing
+                                    detox
+                                    experience.</p>
+
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts will connect you with the retreat specializing in detoxification from the
+                                    curated
+                                    collection
+                                    of
+                                    centers that align with your specific wellness goals, preferences, and budget.</p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div id="content-div">
-                        <h5 class="text-uppercase">Detoxification Retreats</h5>
-                        &nbsp;
-
-                        <h4>For Whom:</h4>
-                        <p>Detoxification is recommended for those struggling with health issues like digestive
-                            disorders, and low
-                            energy levels. It's a suitable choice for individuals looking to kickstart a healthier
-                            lifestyle.</p>
-
-                        <h4>Treatment Details:</h4>
-                        <p>Ayurvedic detox involves time-tested purification techniques that eliminate accumulated
-                            toxins from the
-                            body.
-                            The duration varies, but programs typically span two weeks or more.</p>
-
-                        <h4>Wellness Centers:</h4>
-                        <p>Detox-focused resorts and Ayurveda Healing centers are ideal for those seeking a revitalizing
-                            detox
-                            experience.</p>
-
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts will connect you with the retreat specializing in detoxification from the curated
-                            collection
-                            of
-                            centers that align with your specific wellness goals, preferences, and budget.</p>
-                    </div>
-
                 </div>
 
                 <!-- CARD FOUR -->
                 <div class="col-md-3 col-sm-6 col-12 colum-margin">
                     <div class="card p-2 custom-div_card" data-card-id="Curative" style="cursor: -webkit-grab; ">
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image" custom-div_card_image>
                             <img class="card-section-img" src="../images/239_09/1/Shirodara_Kerala.jpg" alt="">
                         </div>
 
@@ -599,41 +630,56 @@
 
 
                 <div class="content hidden" id="Curative">
-                    <div id="image-div">
-                        <img src="../images/239_09/1/Shirodara_Kerala.jpg" class="img-fluid rounded-4 content-img"
-                            alt="Curative Image" id="curativeImage">
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+                            <h2 class="text-uppercase">Curative Retreats</h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+
+                            <div id="image-div">
+                                <img src="../images/239_09/1/Shirodara_Kerala.jpg"
+                                    class="img-fluid rounded-4 content-img" alt="Curative Image" id="curativeImage">
+                            </div>
+                            <div id="content-div">
+
+                                <h4>For Whom:</h4>
+                                <p>Curative treatments cater to individuals dealing with chronic skin conditions, back
+                                    and neck
+                                    pain,
+                                    arthritis,
+                                    rheumatism, and other health conditions for which allopathy doesn’t offer healing or
+                                    management
+                                    solutions.
+                                </p>
+
+                                <h4>Treatment Details:</h4>
+                                <p>Ayurvedic approaches to curative solutions include specialized herbal treatments,
+                                    massages,
+                                    and lifestyle
+                                    adjustments as per one’s body constitution. The duration varies based on the
+                                    severity of the
+                                    condition.
+                                </p>
+
+                                <h4>Wellness Centers:</h4>
+                                <p>Healing-focused Ayurvedic hospitals and specialized clinics centers are best suited
+                                    for
+                                    curative
+                                    solutions.
+                                </p>
+
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts assist you in finding the right hospital from the curated collection of
+                                    authentic
+                                    centers
+                                    that
+                                    fit with your specific healing goals, preferences, and budget.</p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div id="content-div">
-                        <h5 class="text-uppercase">Curative Retreats</h5>
-                        &nbsp;
-                        <h4>For Whom:</h4>
-                        <p>Curative treatments cater to individuals dealing with chronic skin conditions, back and neck
-                            pain,
-                            arthritis,
-                            rheumatism, and other health conditions for which allopathy doesn’t offer healing or
-                            management
-                            solutions.
-                        </p>
 
-                        <h4>Treatment Details:</h4>
-                        <p>Ayurvedic approaches to curative solutions include specialized herbal treatments, massages,
-                            and lifestyle
-                            adjustments as per one’s body constitution. The duration varies based on the severity of the
-                            condition.
-                        </p>
 
-                        <h4>Wellness Centers:</h4>
-                        <p>Healing-focused Ayurvedic hospitals and specialized clinics centers are best suited for
-                            curative
-                            solutions.
-                        </p>
-
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts assist you in finding the right hospital from the curated collection of authentic
-                            centers
-                            that
-                            fit with your specific healing goals, preferences, and budget.</p>
-                    </div>
 
 
                 </div>
@@ -659,7 +705,7 @@
                 <div class="col-md-3 col-sm-6 col-12 colum-margin ">
                     <div class="card p-2 custom-div_card" data-card-id="Backwaters" style="cursor: -webkit-grab; ">
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/2/Backwaters.jpg" alt="">
                         </div>
 
@@ -682,31 +728,41 @@
                 </div>
 
 
-                <div class="content hidden" id="Backwaters">
-                    <div id="image-div">
-                        <img class="img-fluid rounded-4 content-img" src="../images/2/Backwaters.jpg"
-                            alt="Backwaters Image" id="BackwatersImage">
-                    </div>
-                    <div id="content-div">
-                        <h5 class="text-uppercase">Backwaters Retreats</h5>
-                        &nbsp;
+                <div class="content hidden " id="Backwaters">
+                    <div class="model-card-container ">
+                        <div class="model-card-header-container">
+                            <h2 class="text-uppercase">Backwaters Retreats</h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+                            <div id="image-div">
+                                <img class="img-fluid rounded-4 content-img" src="../images/2/Backwaters.jpg"
+                                    alt="Backwaters Image" id="BackwatersImage">
+                            </div>
+                            <div id="content-div">
+                                <p>Discover the timeless allure of Kerala's enchanting backwaters, where meandering
+                                    canals and
+                                    lush greenery form a poetic tapestry. Explore scenic and serene properties in
+                                    Alleppey,
+                                    Kumarakom, Poovar, Thrissur, and beyond. </p>
 
-                        <p>Discover the timeless allure of Kerala's enchanting backwaters, where meandering canals and
-                            lush greenery form a poetic tapestry. Explore scenic and serene properties in Alleppey,
-                            Kumarakom, Poovar, Thrissur, and beyond. </p>
+                                <h4>Wellness Centers:</h4>
+                                <p>Surrender to the rhythmic flow of nature to rejuvenate and heal with authentic
+                                    Ayurveda, at
+                                    the exquisite properties with panoramic greenery offering various wellness and
+                                    healing
+                                    retreats like Panchakarma, Detoxification, Stress Management, Weight Management and
+                                    curative
+                                    and management programs. The duration varies, but typically ranges from a week to a
+                                    couple
+                                    of weeks.
+                                </p>
 
-                        <h4>Wellness Centers:</h4>
-                        <p>Surrender to the rhythmic flow of nature to rejuvenate and heal with authentic Ayurveda, at
-                            the exquisite properties with panoramic greenery offering various wellness and healing
-                            retreats like Panchakarma, Detoxification, Stress Management, Weight Management and curative
-                            and management programs. The duration varies, but typically ranges from a week to a couple
-                            of weeks.
-                        </p>
-
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts guide you to select the perfect backwater property that matches your specific
-                            wellness goals, preferences and budget.</p>
-
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts guide you to select the perfect backwater property that matches your
+                                    specific
+                                    wellness goals, preferences and budget.</p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -718,7 +774,7 @@
                     <div class="card p-2 custom-div_card" data-card-id="Beach" style="cursor: -webkit-grab; ">
 
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/2/Beach.jpg" alt="">
                         </div>
 
@@ -741,33 +797,45 @@
                 </div>
 
                 <div class="content hidden" id="Beach">
-                    <div id="image-div">
-                        <img class="img-fluid rounded-4 content-img" src="../images/2/Beach.jpg" alt="Beach Image"
-                            id="BeachImage">
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+                            <h2 class="text-uppercase"> Beach Retreats </h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+                            <div id="image-div">
+                                <img class="img-fluid rounded-4 content-img" src="../images/2/Beach.jpg"
+                                    alt="Beach Image" id="BeachImage">
+                            </div>
+                            <div id="content-div">
+                                <p>Embrace the sun-kissed shores of Kerala's pristine beaches, where golden sands and
+                                    azure
+                                    waters paint a picture of pure bliss.
+                                    Explore coastal havens in Kovalam, Varkala, Alleppey, Kochi, Thrissur and more,
+                                    offering
+                                    idyllic escapes for rejuvenation, healing and the perfect balance of sea, sun, and
+                                    serenity.
+                                </p>
+
+                                <h4>Wellness Centers:</h4>
+                                <p>Immerse yourself in the rhythmic melody of waves to rejuvenate and heal at tranquil
+                                    coastal
+                                    retreats offering various wellness and healing retreats like Panchakarma,
+                                    Detoxification,
+                                    Stress Management, Weight Management and curative and management programs. The
+                                    duration
+                                    varies, but typically ranges from a week to a couple of weeks.
+                                </p>
+
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts will aid you to find the ideal beach retreat that matches your specific
+                                    wellness
+                                    goals, preferences and budget.</p>
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div id="content-div">
-                        <h5 class="text-uppercase"> Beach Retreats </h5>
-                        &nbsp;
-
-                        <p>Embrace the sun-kissed shores of Kerala's pristine beaches, where golden sands and azure
-                            waters paint a picture of pure bliss.
-                            Explore coastal havens in Kovalam, Varkala, Alleppey, Kochi, Thrissur and more, offering
-                            idyllic escapes for rejuvenation, healing and the perfect balance of sea, sun, and serenity.
-                        </p>
-
-                        <h4>Wellness Centers:</h4>
-                        <p>Immerse yourself in the rhythmic melody of waves to rejuvenate and heal at tranquil coastal
-                            retreats offering various wellness and healing retreats like Panchakarma, Detoxification,
-                            Stress Management, Weight Management and curative and management programs. The duration
-                            varies, but typically ranges from a week to a couple of weeks.
-                        </p>
-
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts will aid you to find the ideal beach retreat that matches your specific wellness
-                            goals, preferences and budget.</p>
-
-                    </div>
-
                 </div>
 
 
@@ -775,7 +843,7 @@
                     <div class="card p-2 custom-div_card" data-card-id="Village" style="cursor: -webkit-grab; ">
 
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/2/Village.jpg" alt="">
                         </div>
 
@@ -799,30 +867,45 @@
 
 
                 <div class="content hidden" id="Village">
-                    <div id="image-div">
-                        <img class="img-fluid rounded-4 content-img" src="../images/2/Village.jpg" alt="Village Image"
-                            id="VillageImage">
-                    </div>
-                    <div id="content-div">
-                        <h5 class="text-uppercase">Countryside Retreats</h5>
-                        &nbsp;
 
-                        <p>Embark on a pastoral journey through the idyllic countryside of Kerala, where emerald fields
-                            and quaint villages weave tales of simplicity and serenity.
-                            Explore the rural charm in places like Palakkad, Kuttanad, Malappuram, Thrissur, Calicut and
-                            beyond, offering a tranquil retreat for those seeking relaxation, rejuvenation, and an
-                            authentic experience of Kerala's rustic beauty. </p>
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+                            <h2 class="text-uppercase">Countryside Retreats</h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+                            <div id="image-div">
+                                <img class="img-fluid rounded-4 content-img" src="../images/2/Village.jpg"
+                                    alt="Village Image" id="VillageImage">
+                            </div>
+                            <div id="content-div">
 
-                        <h4>Wellness Centers:</h4>
-                        <p>Immerse yourself in the soothing rhythm of nature and discover countryside escapes offering
-                            various wellness and healing retreats like Panchakarma, Detoxification, Stress Management,
-                            Weight Management and curative and management programs. The duration varies, but typically
-                            ranges from a week to a couple of weeks.
-                        </p>
+                                <p>Embark on a pastoral journey through the idyllic countryside of Kerala, where emerald
+                                    fields
+                                    and quaint villages weave tales of simplicity and serenity.
+                                    Explore the rural charm in places like Palakkad, Kuttanad, Malappuram, Thrissur,
+                                    Calicut and
+                                    beyond, offering a tranquil retreat for those seeking relaxation, rejuvenation, and
+                                    an
+                                    authentic experience of Kerala's rustic beauty. </p>
 
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts guide you to identify the ideal countryside property that fits with your specific
-                            wellness goals, preferences and budget.</p>
+                                <h4>Wellness Centers:</h4>
+                                <p>Immerse yourself in the soothing rhythm of nature and discover countryside escapes
+                                    offering
+                                    various wellness and healing retreats like Panchakarma, Detoxification, Stress
+                                    Management,
+                                    Weight Management and curative and management programs. The duration varies, but
+                                    typically
+                                    ranges from a week to a couple of weeks.
+                                </p>
+
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts guide you to identify the ideal countryside property that fits with your
+                                    specific
+                                    wellness goals, preferences and budget.</p>
+
+                            </div>
+                        </div>
+
 
                     </div>
 
@@ -831,7 +914,7 @@
                 <div class="col-md-3 col-sm-6 col-12 colum-margin">
                     <div class="card p-2 custom-div_card" data-card-id="Hills" style="cursor: -webkit-grab; ">
 
-                        <div class="" style="height: 65%; overflow: hidden;">
+                        <div class="custom-div_card_image">
                             <img class="card-section-img" src="../images/2/Hills.jpg" alt="">
                         </div>
 
@@ -854,33 +937,49 @@
                 </div>
 
                 <div class="content hidden" id="Hills">
-                    <div id="image-div">
-                        <img class="img-fluid rounded-4 content-img" src="../images/2/Hills.jpg" alt="Hills Image"
-                            id="HillsImage">
+
+                    <div class="model-card-container">
+                        <div class="model-card-header-container">
+
+                            <h2 class="text-uppercase">Hills Retreats</h2>
+                        </div>
+                        <div class="modal-card-body-contianer">
+                            <div id="image-div">
+                                <img class="img-fluid rounded-4 content-img" src="../images/2/Hills.jpg"
+                                    alt="Hills Image" id="HillsImage">
+                            </div>
+                            <div id="content-div">
+
+                                <p>Serenade your senses in the lush embrace of Kerala's captivating hills, where verdant
+                                    landscapes and mist-kissed peaks create an enchanting symphony.
+                                    Discover hillside havens in Munnar, Wayanad, Thekkady, and more, offering authentic
+                                    ayurveda
+                                    retreats into nature's arms for relaxation, rejuvenation and healing, and the
+                                    perfect
+                                    harmony of tranquility and scenic beauty. </p>
+
+                                <h4>Wellness Centers:</h4>
+                                <p>Surrender to the rhythmic melody of rustling leaves and discover serene hillside
+                                    escapes
+                                    offering various wellness and healing retreats like Panchakarma, Detoxification,
+                                    Stress
+                                    Management, Weight Management and curative and management programs. The duration
+                                    varies, but
+                                    typically ranges from a week to a couple of weeks.
+                                </p>
+
+                                <h4>How Our Experts Can Help:</h4>
+                                <p>Our experts guide you to select the ideal property in the hills that aligns with your
+                                    specific wellness goals, preferences and budget.</p>
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div id="content-div">
-                        <h5 class="text-uppercase">Hills Retreats</h5>
-                        &nbsp;
 
 
-                        <p>Serenade your senses in the lush embrace of Kerala's captivating hills, where verdant
-                            landscapes and mist-kissed peaks create an enchanting symphony.
-                            Discover hillside havens in Munnar, Wayanad, Thekkady, and more, offering authentic ayurveda
-                            retreats into nature's arms for relaxation, rejuvenation and healing, and the perfect
-                            harmony of tranquility and scenic beauty. </p>
 
-                        <h4>Wellness Centers:</h4>
-                        <p>Surrender to the rhythmic melody of rustling leaves and discover serene hillside escapes
-                            offering various wellness and healing retreats like Panchakarma, Detoxification, Stress
-                            Management, Weight Management and curative and management programs. The duration varies, but
-                            typically ranges from a week to a couple of weeks.
-                        </p>
-
-                        <h4>How Our Experts Can Help:</h4>
-                        <p>Our experts guide you to select the ideal property in the hills that aligns with your
-                            specific wellness goals, preferences and budget.</p>
-
-                    </div>
 
                 </div>
 
@@ -889,32 +988,20 @@
     </div>
 
 
+    <section class="review-container card-background p-2  divider-margin  ">
+        <div class="container h-100  pt-5  ">
+            <div class="card-header-container ">
+                <h2 class="card-heading-text  fw-bold card-header-text ">Read About the
+                    Experience of Wellness Travellers Like You
+                </h2>
+            </div>
+            <div class="row  p-1 mt-5">
+                <div class="col-md-6 col-sm-12 col-xs-12  review-reviews-container   ">
 
-
-
-
-
-    <section class="review-container card-background p-2  divider-margin ">
-        <div class="container h-100  ">
-
-            <div class="row  p-1">
-
-                <div class="col-md-6 col-sm-12 col-xs-12  review-reviews-container">
-                    <div class="review-reviews-header ">
-                        <div class="review-reviews-header-contents  p-1">
-                            <p class="review-reviews-header-contents-text fw-bold">Read About the
-                                Experience of Wellness Travellers Like You
-                            </p>
-                            <!-- <p
-                                class="review-reviews-header-contents-text fw-medium text-capitalize  reviews-header-contents-text ">
-                                Our visitor's paraiise and appreciations during their stay at Ayurvedic Healing Village
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="review-reviews-icon-container p-1 mb-3 ">
+                    <!-- <div class="review-reviews-icon-container p-1 mb-3 borderTest ">
                         <i class="fas fa-angle-up fs-2" style="color: gray;"></i>
-                    </div>
-                    <div class="review-reviews-reviews-section ">
+                    </div> -->
+                    <div class="review-reviews-reviews-section  ">
 
                         <div class="review-reviews-reviews-items-container  ">
                             <div class="review-reviews-reviews-items-user-container">
@@ -1092,37 +1179,24 @@
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-    <section class="RecognitionSection  ">
+    <section class="RecognitionSection   ">
         <div class="container  recognition-container ">
             <div class="recognition-inner-container  p-3   rounded">
                 <div class="w-80 h-80 vedio-carousel-gap">
                     <h2 class="mt-3 p-2 vedio-carousel-gap  fw-bold">Recognised by</h2>
                     <div class="container ">
                         <div class="row d-flex divider-margin">
-
-                            <div class="col-md-2 col-sm-6 col-xs-2    ">
-                                <div class="card    recognition-card">
-                                    <img class="img-fluid " style="width: 80%;height: 80%; "
+                            <div class="col-md-2 col-sm-6 col-xs-2 ">
+                                <div class=" card  recognition-card">
+                                    <img class="img-fluid recognition-card_image"  
                                         src="https://wellnessloka.com/partners/ATTOI.jpg" alt="userImage" />
-
                                 </div>
                             </div>
 
-                            <div class="col-md-2 col-sm-6 col-xs-2    ">
-                                <div class="card     recognition-card">
-                                    <img class="img-fluid " style="width: 80%;height: 80%; "
-                                        src="https://wellnessloka.com/partners/KSUM.png" alt="userImage" />
-
+                            <div class="col-md-2 col-sm-6 col-xs-2 ">
+                                <div class=" card  recognition-card">
+                                    <img class="img-fluid recognition-card_image " 
+                                    src="https://wellnessloka.com/partners/KSUM.png" alt="userImage" />
                                 </div>
                             </div>
 
@@ -1151,8 +1225,20 @@
                                 </div>
                             </div>
 
+
                         </div>
                     </div>
+                    <!-- <div class="container">
+                        <div class="row d-flex divider-margin">
+
+
+
+
+
+
+
+                        </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -1160,21 +1246,21 @@
     </section>
 
 
-    <section class="formsection  card-background   divider-margin" style="padding-top: 4rem;" id="form-section">
+    <section class="formsection  card-background   divider-margin " style="padding-top: 4rem;" id="form-section" >
+        
         <div class="card-header-container  " style="height: 4rem;">
-
             <h2 class=" fw-bold  card-header-tex card-heading-text">Book Complimentary Consultation with Ayurveda Expert
             </h2>
-
         </div>
+
         <div class="contianer divider-margin">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 ">
-                    <div class=" d-flex justify-content-center align-items-center p-3 " style="height: 44%;">
-                        <p class=" fs-4 " style="color:#598145;">
+                    <div class=" d-flex justify-content-center align-items-center p-3  overflow-hidden formsection_content " >
+                        <p class=" fs-4 formsection_content_p " style="color:#598145;">
                             A free consultation with our Ayurveda experts will help you to find your ideal retreat among
                             150+ carefully selected Ayurvedic wellness resorts and hospitals across Kerala.
-                            <br>
+                            <br /> <br />
                             Our specialists will guide you in choosing the perfect retreat based on your health needs,
                             location preferences and budget from our curated list of verified properties for an
                             authentic ayurveda experience.
@@ -1190,10 +1276,10 @@
                     data-hubspot-rendered="true"></script>
                 <!-- FORMSECTION -->
 
-                <div class="col-md-6 col-sm-12 col-xs-12 ">
+                <div class="col-md-6 col-sm-12 col-xs-12  ">
                     <div class=" w-80 h-80 rounded m-4 p-2">
                         <div class="card p-2 ">
-                            <h4 class="card-title " style="margin-left: 5px;">Book Free consultation</h4>
+
                             <div class="hform" id="form">
                                 <script data-hubspot-rendered="true">
                                     hbspt.forms.create({
@@ -1220,8 +1306,7 @@
     </section>
 
 
-
-    <section class="footer">
+    <section class="footer ">
         <div class="footer-contact-div   p-1">
             <div class="footer-contact-phone-div ">
                 <div class=""
@@ -1271,32 +1356,27 @@
             <p class="copy-right">© 2016 - 2023 WellnessLoka. All Rights Reserved </p>
         </div>
     </section>
-
-
-
-
-
     <!-- MODEL SECTION -->
 
     <div class="modal fade " id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered ">
-            <div class="modal-content model-background p-3">
+            <div class="modal-content model-background p-3 ">
                 <button type="button " class="modal-closebuttonContianer rounded-circle" data-bs-dismiss="modal"
                     aria-label="Close">
                     <i class="fa-solid fa-xmark" style="color: white;"></i>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center ">
                     <div class="modal-header-container">
-                        <h1 class="text-light mt-4">PANCHAKARMA</h1>
+                        <h1 class="text-dark mt-4">PANCHAKARMA</h1>
                     </div>
                     <div class="modal-bodyContainer d-flex justify-content-center">
                         <div class="modal-imageContainer">
                             <div class="modal-image rounded-4">
-                                <div class="image-footer-header"></div>
+                                <div class="image-footer-header "></div>
                             </div>
                         </div>
-                        <div class="modal-content-container">
+                        <div class="modal-content-container ">
                             <ul>
                                 <li><span>For Whom: </span>Panchakarma is ideal for individuals seeking a holistic
                                     detoxification experience. It is especially beneficial for those experiencing
@@ -1313,15 +1393,14 @@
                         </div>
                     </div>
                     <div class="modal-FooterContainer pb-2">
-                        <button class="bg-light btn btn-primary b-0 button-text" id="model-button"
-                            data-bs-dismiss="modal">Book Free Consultation </button>
+                        <button class=" btn btn-primary b-0 button-text" id="model-button"
+                            onclick="scrollToFormSection()" data-bs-dismiss="modal">Book
+                            Free Consultation </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 
 
     <div class="modal fade" id="exampleModalToggleModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
@@ -1335,26 +1414,24 @@
                 <div class="modal-body" id="modalContent">
 
                 </div>
-                <div class="modal-FooterContainer">
-                    <div class="bg-light  btn btn-primary  b-0 button-text">Book Free Consultation</div>
+                <div class="modal-FooterContainer ">
+                    <button class=" btn btn-primary  button-text " aria-label="Close"
+                        onclick="scrollToFormSection()">Book Free Consultation</button>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
     <script src="https://kit.fontawesome.com/88f2b93054.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script src="../js/index.js"></script>
 
@@ -1376,6 +1453,16 @@
                 $('#exampleModalToggleModal').modal('show');
             });
         });
+
+        function scrollToFormSection() {
+            var formSection = document.getElementById('form-section');
+            if (formSection) {
+                formSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+
     </script>
 
 
