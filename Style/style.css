@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 
 .borderTest {
-    border: 1px solid red
+    /* border: 1px solid red */
 }
 
 .header-section {
@@ -2331,7 +2331,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid red !important;
+        /* border: 1px solid red !important; */
     }
     .model-card-header-container{
         width: 100%;
@@ -2340,7 +2340,7 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .modal-card-body-contianer{
         width: 100%;
@@ -2349,7 +2349,7 @@ body::-webkit-scrollbar {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
 }
