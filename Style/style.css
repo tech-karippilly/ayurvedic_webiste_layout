@@ -259,7 +259,7 @@ body::-webkit-scrollbar {
 }
 
 .about-card-header-title {
-    width: 70%;
+    width: 85%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
