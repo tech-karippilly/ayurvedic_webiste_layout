@@ -1,3 +1,7 @@
+:root{
+    --darkGreen:#26560e
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 .borderTest {
-    /* border: 1px solid red */
+    border: 1px solid red
 }
 
 .header-section {
@@ -83,7 +87,7 @@ body::-webkit-scrollbar {
 .header-bookNowBtn:hover {
     width: 400px;
     height: 50px;
-    background-color: #598145;
+    background-color: var(--darkGreen);
     border-radius: 8px;
     color: #FFFFFF;
     margin-top: 1rem;
@@ -743,12 +747,35 @@ body::-webkit-scrollbar {
 }
 
 .footer-contact-phone-div {
-    height: 80%;
-    width: 25%;
+    height: 11vh;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.footer-icon-div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    padding: 1rem;
+    color: #777269;
+    font-size: 25pt;
+    margin-right: 30px;
+}
+
+.footer-content-div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #777269;
 }
 
 .footer-social-media {
@@ -821,6 +848,7 @@ body::-webkit-scrollbar {
 }
 
 .button-text {
+    width: 400px;
     background-color: #598145;
     color: white;
     border: none;
@@ -828,9 +856,10 @@ body::-webkit-scrollbar {
 }
 
 .button-text:hover {
-    background-color: #598145;
+    background-color: #26560e;
     color: white;
     border: none;
+   
 }
 
 
@@ -1082,7 +1111,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -1091,6 +1120,7 @@ body::-webkit-scrollbar {
         font-size: 12pt;
         border: none;
     }
+
     .card-header-container {
         height:4rem !important;
         width: 100%;
@@ -1276,7 +1306,7 @@ body::-webkit-scrollbar {
     }
 
     .recognition-card {
-        width: 5rem;
+        width: 20rem;
         height: 120px;
         display: flex;
         justify-content: center;
@@ -1289,6 +1319,7 @@ body::-webkit-scrollbar {
         height: 30%;
         object-fit: cover;
         overflow: hidden;
+    
     }
 
 
@@ -1311,6 +1342,7 @@ body::-webkit-scrollbar {
     .modal{
         --bs-modal-width: 100%;
     }
+
     .modal-content-container {
         width: 50%;
         height: 40vh;
@@ -1326,6 +1358,7 @@ body::-webkit-scrollbar {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
     .modal-imageContainer {
         width: 50%;
         height: 40vh;
@@ -1361,6 +1394,7 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
+
     .model-card-header-container{
         width: 100%;
         height: 4rem !important;
@@ -1370,6 +1404,7 @@ body::-webkit-scrollbar {
         padding: 1rem;
 
     }
+
     .modal-card-body-contianer{
         width: 100%;
         height: 70%;
@@ -1378,11 +1413,13 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
+
     .model-card-header-container h2{
         font-size: 15pt;
         margin: 0;
         padding: 0;
     }
+
     #content-div {
         width: 50%;
         height: 100%;
@@ -1485,7 +1522,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -1621,18 +1658,21 @@ body::-webkit-scrollbar {
     }
 
     .RecognitionSection {
-        min-height: 60vh !important; 
+        min-height: 65vh !important; 
         display: flex;
-        padding: 4rem;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .recognition-card {
-        width: 5rem;
+        width: 20rem;
         height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
+       
     }
 
     .recognition-card_image{
@@ -1641,8 +1681,6 @@ body::-webkit-scrollbar {
         object-fit: cover;
         overflow: hidden;
     }
-
-
 
     .card-header-container {
         height: 10%;
@@ -1755,6 +1793,43 @@ body::-webkit-scrollbar {
     #content-div::-webkit-scrollbar {
         display: none;
     }
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+        
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        color: #777269;
+    
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1831,7 +1906,7 @@ body::-webkit-scrollbar {
         margin-top: 3px;
     }
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -2030,6 +2105,38 @@ body::-webkit-scrollbar {
     #content-div::-webkit-scrollbar {
         display: none;
     }
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        color: #777269;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2085,7 +2192,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -2224,7 +2331,37 @@ body::-webkit-scrollbar {
     #content-div::-webkit-scrollbar {
         display: none;
     }
-
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        color: #777269;
+    }
 
 }
 
@@ -2269,7 +2406,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -2350,6 +2487,38 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         /* border: 1px solid red; */
+    }
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        color: #777269;
     }
 
 }
