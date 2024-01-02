@@ -1035,6 +1035,12 @@ body::-webkit-scrollbar {
     height: 34% !important; 
 }
 
+.hoverclass:hover{
+    color: #25e4eb!important;
+    text-decoration: none;
+
+}
+
 @keyframes bounce {
 
     0%,
@@ -1055,11 +1061,134 @@ body::-webkit-scrollbar {
 }
 
 
+@media (max-width:370px){
+    body {
+        font-size: 13px;
+       
+    }
+
+    .modal-card-body-contianer{
+
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .modal-closebuttonContianer{
+     left: 40% !important;   
+    }
+
+    #content-div{
+
+        width: 90% !important;
+    }
+    #content-div h4{
+     
+        font-size: 10pt !important;
+    }
+    #content-div p{
+     
+        font-size: 9pt !important;
+    }
+
+    .button-text{
+        width: 16rem !important;
+    }
+
+    .card-heading-text{
+        font-size: 9pt;
+        border: 1px saddlebrown;
+    }
+    #book-now-btn{
+        width: 20rem !important;
+    }
+    .modal {
+        width: 100%;
+        max-height: 100%;
+    }
+    .card-heading-text{
+        font-size: 14pt;
+        text-align: center;
+        
+    }
+    .about-cardSection{
+        height: 200vh !important;
+    }
+
+    .about-section {
+        height: 1100px;
+        background-color: rgb(242, 236, 236);
+    }
+
+    .aboutCardtwo {
+        height: 480px !important;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutcard-psize{
+        font-size: 11pt !important;
+    }
+    .aboutCardTwo_imageContainer{
+        width: 14rem;
+
+    }
+    .icon-button-container{
+        width: 24rem ;
+    }
+    .aboutcard-button{
+        width: 24rem !important;
+    }
+
+    .custom-div_card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .custom-div_card_image{
+        height: 65%;
+    }
+    .card-head-text{
+        font-size: 12pt !important;
+        margin-top: 10px !important;
+    }
+    .card-p-text{
+        font-size: 10pt;
+    }
+
+    .review-reviews-container {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+    }
+    .review-reviews-reviews-items-container{
+
+        height: 16vh;
+    }
+    .reviews-items-user-reviews h5{
+        font-size: 10pt;
+    }
+    .reviews-items-user-reviews p{
+        font-size: 9pt !important;
+    }
+    .formsection_content_p{
+        font-size: 9pt !important;
+    }
+    .RecognitionSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
 
 @media (max-width: 575.98px) {
 
     body {
         font-size: 13px;
+        
     }
 
     .modal {
@@ -1447,6 +1576,43 @@ body::-webkit-scrollbar {
         display: none;
     }
 
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+        
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        color: #777269;
+    
+    }
 
 }
 
