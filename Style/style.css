@@ -1,3 +1,7 @@
+:root{
+    --darkGreen:#26560e
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 .borderTest {
-    /* border: 1px solid red */
+    border: 1px solid red
 }
 
 .header-section {
@@ -83,7 +87,7 @@ body::-webkit-scrollbar {
 .header-bookNowBtn:hover {
     width: 400px;
     height: 50px;
-    background-color: #598145;
+    background-color: var(--darkGreen);
     border-radius: 8px;
     color: #FFFFFF;
     margin-top: 1rem;
@@ -743,12 +747,35 @@ body::-webkit-scrollbar {
 }
 
 .footer-contact-phone-div {
-    height: 80%;
-    width: 25%;
+    height: 11vh;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.footer-icon-div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    padding: 1rem;
+    color: #777269;
+    font-size: 25pt;
+    margin-right: 30px;
+}
+
+.footer-content-div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #777269;
 }
 
 .footer-social-media {
@@ -821,6 +848,7 @@ body::-webkit-scrollbar {
 }
 
 .button-text {
+    width: 400px;
     background-color: #598145;
     color: white;
     border: none;
@@ -828,9 +856,10 @@ body::-webkit-scrollbar {
 }
 
 .button-text:hover {
-    background-color: #598145;
+    background-color: #26560e;
     color: white;
     border: none;
+   
 }
 
 
@@ -1006,6 +1035,12 @@ body::-webkit-scrollbar {
     height: 34% !important; 
 }
 
+.hoverclass:hover{
+    color: #25e4eb!important;
+    text-decoration: none;
+
+}
+
 @keyframes bounce {
 
     0%,
@@ -1026,11 +1061,134 @@ body::-webkit-scrollbar {
 }
 
 
+@media (max-width:370px){
+    body {
+        font-size: 13px;
+       
+    }
+
+    .modal-card-body-contianer{
+
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .modal-closebuttonContianer{
+     left: 40% !important;   
+    }
+
+    #content-div{
+
+        width: 90% !important;
+    }
+    #content-div h4{
+     
+        font-size: 10pt !important;
+    }
+    #content-div p{
+     
+        font-size: 9pt !important;
+    }
+
+    .button-text{
+        width: 16rem !important;
+    }
+
+    .card-heading-text{
+        font-size: 9pt;
+        border: 1px saddlebrown;
+    }
+    #book-now-btn{
+        width: 20rem !important;
+    }
+    .modal {
+        width: 100%;
+        max-height: 100%;
+    }
+    .card-heading-text{
+        font-size: 14pt;
+        text-align: center;
+        
+    }
+    .about-cardSection{
+        height: 200vh !important;
+    }
+
+    .about-section {
+        height: 1100px;
+        background-color: rgb(242, 236, 236);
+    }
+
+    .aboutCardtwo {
+        height: 480px !important;
+        background-color: rgb(226, 218, 218);
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .aboutcard-psize{
+        font-size: 11pt !important;
+    }
+    .aboutCardTwo_imageContainer{
+        width: 14rem;
+
+    }
+    .icon-button-container{
+        width: 24rem ;
+    }
+    .aboutcard-button{
+        width: 24rem !important;
+    }
+
+    .custom-div_card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .custom-div_card_image{
+        height: 65%;
+    }
+    .card-head-text{
+        font-size: 12pt !important;
+        margin-top: 10px !important;
+    }
+    .card-p-text{
+        font-size: 10pt;
+    }
+
+    .review-reviews-container {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+    }
+    .review-reviews-reviews-items-container{
+
+        height: 16vh;
+    }
+    .reviews-items-user-reviews h5{
+        font-size: 10pt;
+    }
+    .reviews-items-user-reviews p{
+        font-size: 9pt !important;
+    }
+    .formsection_content_p{
+        font-size: 9pt !important;
+    }
+    .RecognitionSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
 
 @media (max-width: 575.98px) {
 
     body {
         font-size: 13px;
+        
     }
 
     .modal {
@@ -1082,7 +1240,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -1091,6 +1249,7 @@ body::-webkit-scrollbar {
         font-size: 12pt;
         border: none;
     }
+
     .card-header-container {
         height:4rem !important;
         width: 100%;
@@ -1276,7 +1435,7 @@ body::-webkit-scrollbar {
     }
 
     .recognition-card {
-        width: 5rem;
+        width: 20rem;
         height: 120px;
         display: flex;
         justify-content: center;
@@ -1289,6 +1448,7 @@ body::-webkit-scrollbar {
         height: 30%;
         object-fit: cover;
         overflow: hidden;
+    
     }
 
 
@@ -1311,6 +1471,7 @@ body::-webkit-scrollbar {
     .modal{
         --bs-modal-width: 100%;
     }
+
     .modal-content-container {
         width: 50%;
         height: 40vh;
@@ -1326,6 +1487,7 @@ body::-webkit-scrollbar {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
     .modal-imageContainer {
         width: 50%;
         height: 40vh;
@@ -1361,6 +1523,7 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
+
     .model-card-header-container{
         width: 100%;
         height: 4rem !important;
@@ -1370,6 +1533,7 @@ body::-webkit-scrollbar {
         padding: 1rem;
 
     }
+
     .modal-card-body-contianer{
         width: 100%;
         height: 70%;
@@ -1378,11 +1542,13 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
+
     .model-card-header-container h2{
         font-size: 15pt;
         margin: 0;
         padding: 0;
     }
+
     #content-div {
         width: 50%;
         height: 100%;
@@ -1410,6 +1576,43 @@ body::-webkit-scrollbar {
         display: none;
     }
 
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+        
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        color: #777269;
+    
+    }
 
 }
 
@@ -1485,7 +1688,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -1621,18 +1824,21 @@ body::-webkit-scrollbar {
     }
 
     .RecognitionSection {
-        min-height: 60vh !important; 
+        min-height: 65vh !important; 
         display: flex;
-        padding: 4rem;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .recognition-card {
-        width: 5rem;
+        width: 20rem;
         height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
+       
     }
 
     .recognition-card_image{
@@ -1641,8 +1847,6 @@ body::-webkit-scrollbar {
         object-fit: cover;
         overflow: hidden;
     }
-
-
 
     .card-header-container {
         height: 10%;
@@ -1755,6 +1959,43 @@ body::-webkit-scrollbar {
     #content-div::-webkit-scrollbar {
         display: none;
     }
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+        
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        color: #777269;
+    
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1831,7 +2072,7 @@ body::-webkit-scrollbar {
         margin-top: 3px;
     }
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -2030,6 +2271,38 @@ body::-webkit-scrollbar {
     #content-div::-webkit-scrollbar {
         display: none;
     }
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        color: #777269;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2085,7 +2358,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -2224,7 +2497,37 @@ body::-webkit-scrollbar {
     #content-div::-webkit-scrollbar {
         display: none;
     }
-
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        color: #777269;
+    }
 
 }
 
@@ -2269,7 +2572,7 @@ body::-webkit-scrollbar {
     }
 
     .header-bookNowBtn {
-        width: 21rem;
+        width: 400px;
         height: 50px;
         background-color: #598145;
         border-radius: 8px;
@@ -2350,6 +2653,38 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         /* border: 1px solid red; */
+    }
+
+    .footer-contact-phone-div {
+        height: 11vh;
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon-div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        padding: 1rem;
+        color: #777269;
+        font-size: 25pt;
+        margin-right: 30px;
+    }
+    
+    .footer-content-div{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        color: #777269;
     }
 
 }
