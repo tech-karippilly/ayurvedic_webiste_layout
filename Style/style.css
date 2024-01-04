@@ -1,5 +1,5 @@
-:root{
-    --darkGreen:#26560e
+:root {
+    --darkGreen: #26560e
 }
 
 body {
@@ -96,8 +96,10 @@ body::-webkit-scrollbar {
 }
 
 .about-section {
-    height: 500px;
+    height: auto;
     background-color: #FFFFFF;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .divider-margin {
@@ -128,11 +130,14 @@ body::-webkit-scrollbar {
 }
 
 .aboutCardtwo {
-    height: 480px;
+    height: auto;
     background-color: rgb(226, 218, 218);
     margin: 5px;
     border-radius: 10px;
     padding: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
 }
 
 .aboutCardTwo_cardContainer {
@@ -508,6 +513,15 @@ body::-webkit-scrollbar {
     justify-content: flex-start;
     flex-direction: column;
     padding: 6px;
+    overflow: hidden;
+}
+
+.reviews-items-user-reviews h5 {
+    font-size: 1vw;
+}
+
+.reviews-items-user-reviews p {
+    font-size: 0.8vw;
 }
 
 .reviews-items-user-reviews::-webkit-scrollbar {
@@ -754,21 +768,23 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
 }
-.footer-icon-div{
+
+.footer-icon-div {
     width: 20%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-icon{
+
+.footer-icon {
     padding: 1rem;
     color: #777269;
     font-size: 25pt;
     margin-right: 30px;
 }
 
-.footer-content-div{
+.footer-content-div {
     width: 80%;
     height: 100%;
     display: flex;
@@ -785,7 +801,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color:#43220d;
+    background-color: #43220d;
 }
 
 .copy {
@@ -859,7 +875,7 @@ body::-webkit-scrollbar {
     background-color: #26560e;
     color: white;
     border: none;
-   
+
 }
 
 
@@ -900,7 +916,7 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .modal-imageContainer {
@@ -1031,15 +1047,16 @@ body::-webkit-scrollbar {
     color: #5D6D7E;
 }
 
-.formsection_content{
-    height: 34% !important; 
+.formsection_content {
+    height: 34% !important;
 }
 
-.hoverclass:hover{
-    color: #25e4eb!important;
+.hoverclass:hover {
+    color: #25e4eb !important;
     text-decoration: none;
 
 }
+
 
 @keyframes bounce {
 
@@ -1061,62 +1078,75 @@ body::-webkit-scrollbar {
 }
 
 
-@media (max-width:370px){
+@media (max-width:370px) {
     body {
         font-size: 13px;
-       
     }
 
-    .modal-card-body-contianer{
-
+    .modal-card-body-contianer {
         display: flex;
         flex-direction: column !important;
+
     }
 
-    .modal-closebuttonContianer{
-     left: 40% !important;   
+    .modal-closebuttonContianer {
+        left: 40% !important;
+
     }
 
-    #content-div{
-
-        width: 90% !important;
+    #content-div {
+        width: 100% !important;
     }
-    #content-div h4{
-     
+
+    #image-div {
+        width: 114%;
+        height: 29vh;
+        padding: 5px
+    }
+
+    #content-div h4 {
         font-size: 10pt !important;
     }
-    #content-div p{
-     
+
+    #content-div p {
+
         font-size: 9pt !important;
     }
 
-    .button-text{
+    .button-text {
+
         width: 16rem !important;
     }
 
-    .card-heading-text{
+    .card-heading-text {
         font-size: 9pt;
         border: 1px saddlebrown;
     }
-    #book-now-btn{
+
+    #book-now-btn {
         width: 20rem !important;
     }
+
     .modal {
         width: 100%;
         max-height: 100%;
     }
-    .card-heading-text{
+
+    .card-heading-text {
         font-size: 14pt;
         text-align: center;
-        
+
     }
-    .about-cardSection{
-        height: 200vh !important;
+
+    .about-cardSection {
+        height: auto !important;
     }
 
     .about-section {
-        height: 1100px;
-        background-color: rgb(242, 236, 236);
+        height: auto;
+        background-color: #FFFFFF;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     .aboutCardtwo {
@@ -1127,33 +1157,42 @@ body::-webkit-scrollbar {
         padding: 10px;
     }
 
-    .aboutcard-psize{
+
+    .aboutcard-psize {
         font-size: 11pt !important;
     }
-    .aboutCardTwo_imageContainer{
+
+    .aboutCardTwo_imageContainer {
         width: 14rem;
 
     }
-    .icon-button-container{
-        width: 24rem ;
+
+    .icon-button-container {
+        width: 24rem;
     }
-    .aboutcard-button{
+
+    .aboutcard-button {
         width: 24rem !important;
     }
 
-    .custom-div_card{
+    .custom-div_card {
         margin-top: 10px;
         margin-bottom: 10px;
+        overflow: hidden;
     }
-    .custom-div_card_image{
+
+    .custom-div_card_image {
         height: 65%;
     }
-    .card-head-text{
-        font-size: 12pt !important;
+
+    .card-head-text {
+        font-size: 5vm !important;
         margin-top: 10px !important;
+       
     }
-    .card-p-text{
-        font-size: 10pt;
+
+    .card-p-text {
+        font-size: 4vm;
     }
 
     .review-reviews-container {
@@ -1162,20 +1201,46 @@ body::-webkit-scrollbar {
         flex-direction: column;
         padding: 1px;
     }
-    .review-reviews-reviews-items-container{
 
+    .review-reviews-reviews-items-container {
         height: 16vh;
     }
-    .reviews-items-user-reviews h5{
-        font-size: 10pt;
+
+    .about-section {
+        height: auto;
+        background-color: #FFFFFF;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .aboutCardtwo {
+       
+        overflow: hidden;
+        height: auto !important;
+    }
+
+    .aboutCardTwo_cardContainer {
+        height: auto;
+        overflow: hidden;
+
+    }
+
+    .reviews-items-user-reviews h6 {
+        font-size: 5vw !important;
+    }
+
+    .reviews-items-user-reviews h5 {
+        font-size: 5vw !important;
     }
     .reviews-items-user-reviews p{
+        font-size: 3vw;
+    }
+
+    .formsection_content_p {
         font-size: 9pt !important;
     }
-    .formsection_content_p{
-        font-size: 9pt !important;
-    }
-    .RecognitionSection{
+
+    .RecognitionSection {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1184,11 +1249,54 @@ body::-webkit-scrollbar {
 
 }
 
+@media (min-width:370px) and (max-width:575px){
+    .header-bookNowBtn{
+        width: 16rem !important;
+    }
+    .card-heading-text {
+        text-align: center;
+    }
+    .reviews-items-user-reviews h5 {
+        font-size: 4vw;
+    }
+    .reviews-items-user-reviews p {
+        font-size: 3vw;
+    }
+    .modal-card-body-contianer {
+        display: flex;
+        flex-direction: column !important;
+
+    }
+    #content-div {
+        width: 100% !important;
+    }
+
+    #image-div {
+        width: 114%;
+        height: 29vh;
+        padding: 5px
+    }
+
+    #content-div h4 {
+        font-size: 10pt !important;
+    }
+
+    #content-div p {
+
+        font-size: 9pt !important;
+    }
+
+    .button-text {
+
+        width: 16rem !important;
+    }
+}
+
 @media (max-width: 575.98px) {
 
     body {
         font-size: 13px;
-        
+
     }
 
     .modal {
@@ -1196,11 +1304,11 @@ body::-webkit-scrollbar {
         max-height: 80%;
     }
 
-    .card-heading-text{
+    .card-heading-text {
         font-size: 11pt;
     }
-    
-    .about-cardSection{
+
+    .about-cardSection {
         height: 200vh !important;
     }
 
@@ -1223,7 +1331,7 @@ body::-webkit-scrollbar {
         border-left: 5px solid #598145;
     }
 
-    .card-body p{
+    .card-body p {
         font-size: 13pt !important;
         margin: 0;
     }
@@ -1251,13 +1359,13 @@ body::-webkit-scrollbar {
     }
 
     .card-header-container {
-        height:4rem !important;
+        height: 4rem !important;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     .card-heading-text {
         color: #000000;
         font-weight: bold;
@@ -1291,8 +1399,10 @@ body::-webkit-scrollbar {
     }
 
     .about-section {
-        height: 1000px;
-        background-color: rgb(242, 236, 236);
+        height: auto;
+        background-color: #FFFFFF;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     .about-cardSection {
@@ -1423,13 +1533,13 @@ body::-webkit-scrollbar {
         left: 7%;
     }
 
-    .custom-div_card_image{
+    .custom-div_card_image {
         height: 70% !important;
         overflow: hidden;
     }
 
     .RecognitionSection {
-        min-height: 100vh !important; 
+        min-height: 100vh !important;
         display: flex;
         padding: 4rem;
     }
@@ -1443,12 +1553,12 @@ body::-webkit-scrollbar {
         overflow: hidden;
     }
 
-    .recognition-card_image{
+    .recognition-card_image {
         width: 100%;
         height: 30%;
         object-fit: cover;
         overflow: hidden;
-    
+
     }
 
 
@@ -1460,15 +1570,15 @@ body::-webkit-scrollbar {
         justify-content: center;
     }
 
-    .formsection_content{
+    .formsection_content {
         height: 48%;
     }
-    
-    .formsection_content_p{
+
+    .formsection_content_p {
         font-size: 13pt !important;
     }
 
-    .modal{
+    .modal {
         --bs-modal-width: 100%;
     }
 
@@ -1476,9 +1586,9 @@ body::-webkit-scrollbar {
         width: 50%;
         height: 40vh;
         padding: 5px;
-    
+
     }
-    
+
     .modal-content-container ul li {
         color: black;
         font-size: 7pt;
@@ -1492,9 +1602,9 @@ body::-webkit-scrollbar {
         width: 50%;
         height: 40vh;
         padding: 10px;
-    
+
     }
-    
+
     .modal-content-container ul li span {
         font-weight: bold;
     }
@@ -1514,7 +1624,7 @@ body::-webkit-scrollbar {
         left: 50%;
     }
 
-    .model-card-container{
+    .model-card-container {
         width: 100%;
         height: 100%;
         display: flex;
@@ -1524,7 +1634,7 @@ body::-webkit-scrollbar {
 
     }
 
-    .model-card-header-container{
+    .model-card-header-container {
         width: 100%;
         height: 4rem !important;
         display: flex;
@@ -1534,7 +1644,7 @@ body::-webkit-scrollbar {
 
     }
 
-    .modal-card-body-contianer{
+    .modal-card-body-contianer {
         width: 100%;
         height: 70%;
         display: flex;
@@ -1543,7 +1653,7 @@ body::-webkit-scrollbar {
         align-items: center;
     }
 
-    .model-card-header-container h2{
+    .model-card-header-container h2 {
         font-size: 15pt;
         margin: 0;
         padding: 0;
@@ -1559,19 +1669,19 @@ body::-webkit-scrollbar {
         color: #000000;
         margin-left: 1rem;
         margin-top: 10px;
-        
+
     }
-    
+
     #content-div h4 {
         font-weight: 600;
         font-size: 8pt;
     }
-    
+
     #content-div p {
         font-weight: 400 !important;
         font-size: 7pt;
     }
-    
+
     #content-div::-webkit-scrollbar {
         display: none;
     }
@@ -1586,23 +1696,25 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
-    .footer-icon-div{
+
+    .footer-icon-div {
         width: 20%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .footer-icon{
+
+    .footer-icon {
         padding: 1rem;
         color: #777269;
         font-size: 25pt;
         margin-right: 30px;
-        
+
     }
-    
-    .footer-content-div{
+
+    .footer-content-div {
         width: 80%;
         height: 100%;
         display: flex;
@@ -1611,7 +1723,7 @@ body::-webkit-scrollbar {
         align-items: center;
         text-align: left;
         color: #777269;
-    
+
     }
 
 }
@@ -1631,17 +1743,18 @@ body::-webkit-scrollbar {
         overflow: scroll;
     }
 
-    .card-heading-text{
+    .card-heading-text {
         font-size: 11pt;
     }
 
-    .about-cardSection{
+    .about-cardSection {
         height: 200vh !important;
     }
-
     .about-section {
-        height: 1000px;
-        background-color: rgb(242, 236, 236);
+        height: auto;
+        background-color: #FFFFFF;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     .about-cardSection {
@@ -1671,7 +1784,7 @@ body::-webkit-scrollbar {
         border-left: 5px solid #598145;
     }
 
-    .card-body p{
+    .card-body p {
         font-size: 13pt !important;
         margin: 0;
     }
@@ -1715,9 +1828,10 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
+
     .custom-div_card {
         height: 400px;
-       
+
     }
 
     .card-header-container {
@@ -1728,11 +1842,23 @@ body::-webkit-scrollbar {
         justify-content: center;
 
     }
-    
+
     .card-heading-text {
         color: #000000;
         font-weight: bold;
         font-size: 20pt;
+    }
+
+
+    .reviews-items-user-reviews h6 {
+        font-size: 4vw !important;
+    }
+
+    .reviews-items-user-reviews h5 {
+        font-size: 3vw !important;
+    }
+    .reviews-items-user-reviews p{
+        font-size: 2vw;
     }
 
     .flex-container {
@@ -1818,17 +1944,17 @@ body::-webkit-scrollbar {
         left: 7%;
     }
 
-    .custom-div_card_image{
+    .custom-div_card_image {
         height: 65% !important;
         overflow: hidden;
     }
 
     .RecognitionSection {
-        min-height: 65vh !important; 
+        min-height: 65vh !important;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .recognition-card {
@@ -1838,10 +1964,10 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         overflow: hidden;
-       
+
     }
 
-    .recognition-card_image{
+    .recognition-card_image {
         width: 100%;
         height: 30%;
         object-fit: cover;
@@ -1856,24 +1982,25 @@ body::-webkit-scrollbar {
         justify-content: center;
     }
 
-    .formsection_content{
+    .formsection_content {
         height: 48%;
     }
-    
-    .formsection_content_p{
+
+    .formsection_content_p {
         font-size: 13pt !important;
     }
 
-    .modal{
+    .modal {
         --bs-modal-width: 100%;
     }
+
     .modal-content-container {
         width: 50%;
         height: 60vh;
         padding: 5px;
-    
+
     }
-    
+
     .modal-content-container ul li {
         color: black;
         font-size: 10pt;
@@ -1882,7 +2009,7 @@ body::-webkit-scrollbar {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
+
     .modal-content-container ul li span {
         font-weight: bold;
     }
@@ -1902,7 +2029,7 @@ body::-webkit-scrollbar {
         left: 50%;
     }
 
-    .model-card-container{
+    .model-card-container {
         width: 100%;
         height: 100%;
         display: flex;
@@ -1911,7 +2038,8 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
-    .model-card-header-container{
+
+    .model-card-header-container {
         width: 100%;
         height: 4rem !important;
         display: flex;
@@ -1920,7 +2048,8 @@ body::-webkit-scrollbar {
         padding: 1rem;
 
     }
-    .modal-card-body-contianer{
+
+    .modal-card-body-contianer {
         width: 100%;
         height: 70%;
         display: flex;
@@ -1928,11 +2057,13 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .model-card-header-container h2{
+
+    .model-card-header-container h2 {
         font-size: 15pt;
         margin: 0;
         padding: 0;
     }
+
     #content-div {
         width: 50%;
         height: 100%;
@@ -1943,19 +2074,19 @@ body::-webkit-scrollbar {
         color: #000000;
         margin-left: 1rem;
         margin-top: 10px;
-        
+
     }
-    
+
     #content-div h4 {
         font-weight: 600;
         font-size: 9pt;
     }
-    
+
     #content-div p {
         font-weight: 400 !important;
         font-size: 8pt;
     }
-    
+
     #content-div::-webkit-scrollbar {
         display: none;
     }
@@ -1969,23 +2100,25 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
-    .footer-icon-div{
+
+    .footer-icon-div {
         width: 20%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .footer-icon{
+
+    .footer-icon {
         padding: 1rem;
         color: #777269;
         font-size: 25pt;
         margin-right: 30px;
-        
+
     }
-    
-    .footer-content-div{
+
+    .footer-content-div {
         width: 80%;
         height: 100%;
         display: flex;
@@ -1994,18 +2127,27 @@ body::-webkit-scrollbar {
         align-items: center;
         text-align: left;
         color: #777269;
-    
+
+    }
+
+    .reviews-items-user-reviews h5 {
+        font-size: 3vw !important;
+    }
+    .reviews-items-user-reviews p{
+        font-size: 2vw;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     body {
         font-size: 18px;
+       
     }
 
-    .card-heading-text{
+    .card-heading-text {
         font-size: 15pt;
     }
+
     .about-card-body-text {
         font-size: 10px;
     }
@@ -2022,7 +2164,7 @@ body::-webkit-scrollbar {
         font-size: 8px;
     }
 
-    .custom-div_card_image{
+    .custom-div_card_image {
         height: 55% !important;
         overflow: hidden;
     }
@@ -2047,7 +2189,7 @@ body::-webkit-scrollbar {
         border-left: 5px solid #598145;
     }
 
-    .card-body p{
+    .card-body p {
         font-size: 10pt !important;
         margin: 0;
     }
@@ -2062,6 +2204,7 @@ body::-webkit-scrollbar {
         align-items: center;
         padding: 3px;
     }
+
     .review-reviews-reviews-items-container {
         width: 100%;
         height: 13vh;
@@ -2071,6 +2214,7 @@ body::-webkit-scrollbar {
         flex-direction: row;
         margin-top: 3px;
     }
+
     .header-bookNowBtn {
         width: 400px;
         height: 50px;
@@ -2080,6 +2224,13 @@ body::-webkit-scrollbar {
         margin-top: 1rem;
         font-size: 12pt;
         border: none;
+    }
+
+    .reviews-items-user-reviews h5 {
+        font-size: 6vw;
+    }
+    .reviews-items-user-reviews p {
+        font-size: 3vw;
     }
 
 
@@ -2124,13 +2275,13 @@ body::-webkit-scrollbar {
         overflow: hidden;
         padding-left: 5%;
     }
-    
-    .header-log-img{
+
+    .header-log-img {
         width: 100%;
         height: 100%;
-        object-fit:cover;
+        object-fit: cover;
     }
-    
+
     .header-section-content-container {
         display: flex;
         justify-content: center;
@@ -2138,7 +2289,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         left: 7%;
     }
-    
+
     .RecognitionSection {
         min-height: 20vh;
         display: flex;
@@ -2155,7 +2306,7 @@ body::-webkit-scrollbar {
         overflow: hidden;
     }
 
-    .recognition-card_image{
+    .recognition-card_image {
         width: 100%;
         height: 100%;
         object-fit: contain;
@@ -2169,11 +2320,11 @@ body::-webkit-scrollbar {
         justify-content: center;
     }
 
-    .formsection_content{
+    .formsection_content {
         height: 48%;
     }
 
-    .formsection_content_p{
+    .formsection_content_p {
         font-size: 13pt !important;
     }
 
@@ -2182,10 +2333,10 @@ body::-webkit-scrollbar {
         width: 50%;
         height: 60vh;
         padding: 5px;
-    
+
     }
-    
-    
+
+
     .modal-content-container ul li {
         color: black;
         font-size: 11pt;
@@ -2194,7 +2345,7 @@ body::-webkit-scrollbar {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
+
     .modal-content-container ul li span {
         font-weight: bold;
     }
@@ -2214,7 +2365,7 @@ body::-webkit-scrollbar {
         left: 95%;
     }
 
-    .model-card-container{
+    .model-card-container {
         width: 100%;
         height: 100%;
         display: flex;
@@ -2223,7 +2374,8 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
-    .model-card-header-container{
+
+    .model-card-header-container {
         width: 100%;
         height: 4rem !important;
         display: flex;
@@ -2232,7 +2384,8 @@ body::-webkit-scrollbar {
         padding: 1rem;
 
     }
-    .modal-card-body-contianer{
+
+    .modal-card-body-contianer {
         width: 100%;
         height: 70%;
         display: flex;
@@ -2240,11 +2393,13 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .model-card-header-container h2{
+
+    .model-card-header-container h2 {
         font-size: 15pt;
         margin: 0;
         padding: 0;
     }
+
     #content-div {
         width: 50%;
         height: 100%;
@@ -2255,19 +2410,19 @@ body::-webkit-scrollbar {
         color: #000000;
         margin-left: 1rem;
         margin-top: 10px;
-        
+
     }
-    
+
     #content-div h4 {
         font-weight: 600;
         font-size: 9pt;
     }
-    
+
     #content-div p {
         font-weight: 400 !important;
         font-size: 8pt;
     }
-    
+
     #content-div::-webkit-scrollbar {
         display: none;
     }
@@ -2280,21 +2435,23 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .footer-icon-div{
+
+    .footer-icon-div {
         width: 20%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .footer-icon{
+
+    .footer-icon {
         padding: 1rem;
         color: #777269;
         font-size: 25pt;
         margin-right: 30px;
     }
-    
-    .footer-content-div{
+
+    .footer-content-div {
         width: 80%;
         height: 100%;
         display: flex;
@@ -2341,7 +2498,7 @@ body::-webkit-scrollbar {
         border-left: 5px solid #598145;
     }
 
-    .card-body p{
+    .card-body p {
         font-size: 12pt !important;
         margin: 0;
     }
@@ -2394,15 +2551,17 @@ body::-webkit-scrollbar {
         flex-direction: column;
         left: 7%;
     }
-    .custom-div_card_image{
+
+    .custom-div_card_image {
         height: 64% !important;
         overflow: hidden;
     }
+
     .RecognitionSection {
         min-height: 20vh;
         display: flex;
         justify-content: center;
-    
+
     }
 
     .card-header-container {
@@ -2412,10 +2571,12 @@ body::-webkit-scrollbar {
         align-items: center;
         justify-content: center;
     }
-    .formsection_content{
+
+    .formsection_content {
         height: 48%;
     }
-    .formsection_content_p{
+
+    .formsection_content_p {
         font-size: 15pt !important;
     }
 
@@ -2423,10 +2584,10 @@ body::-webkit-scrollbar {
         width: 50%;
         height: 60vh;
         padding: 5px;
-    
+
     }
-    
-    
+
+
     .modal-content-container ul li {
         color: black;
         font-size: 13pt;
@@ -2435,12 +2596,12 @@ body::-webkit-scrollbar {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
+
     .modal-content-container ul li span {
         font-weight: bold;
     }
 
-    .model-card-container{
+    .model-card-container {
         width: 100%;
         height: 100%;
         display: flex;
@@ -2449,7 +2610,8 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
-    .model-card-header-container{
+
+    .model-card-header-container {
         width: 100%;
         height: 4rem !important;
         display: flex;
@@ -2458,7 +2620,8 @@ body::-webkit-scrollbar {
         padding: 1rem;
 
     }
-    .modal-card-body-contianer{
+
+    .modal-card-body-contianer {
         width: 100%;
         height: 70%;
         display: flex;
@@ -2466,11 +2629,13 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .model-card-header-container h2{
+
+    .model-card-header-container h2 {
         font-size: 15pt;
         margin: 0;
         padding: 0;
     }
+
     #content-div {
         width: 50%;
         height: 100%;
@@ -2481,22 +2646,23 @@ body::-webkit-scrollbar {
         color: #000000;
         margin-left: 1rem;
         margin-top: 10px;
-        
+
     }
-    
+
     #content-div h4 {
         font-weight: 600;
         font-size: 12pt;
     }
-    
+
     #content-div p {
         font-weight: 400 !important;
         font-size: 10pt;
     }
-    
+
     #content-div::-webkit-scrollbar {
         display: none;
     }
+
     .footer-contact-phone-div {
         height: 11vh;
         width: 20rem;
@@ -2505,21 +2671,23 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .footer-icon-div{
+
+    .footer-icon-div {
         width: 20%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .footer-icon{
+
+    .footer-icon {
         padding: 1rem;
         color: #777269;
         font-size: 25pt;
         margin-right: 30px;
     }
-    
-    .footer-content-div{
+
+    .footer-content-div {
         width: 80%;
         height: 100%;
         display: flex;
@@ -2555,7 +2723,7 @@ body::-webkit-scrollbar {
         border-left: 5px solid #598145;
     }
 
-    .card-body p{
+    .card-body p {
         font-size: 13pt !important;
         margin: 0;
     }
@@ -2581,15 +2749,16 @@ body::-webkit-scrollbar {
         border: none;
     }
 
-    .custom-div_card_image{
+    .custom-div_card_image {
         height: 65% !important;
         overflow: hidden;
     }
+
     .RecognitionSection {
         min-height: 20vh;
         display: flex;
         justify-content: center;
-    
+
     }
 
     .card-header-container {
@@ -2599,10 +2768,12 @@ body::-webkit-scrollbar {
         align-items: center;
         justify-content: center;
     }
-    .formsection_content{
+
+    .formsection_content {
         height: 48%;
     }
-    .formsection_content_p{
+
+    .formsection_content_p {
         font-size: 15pt !important;
     }
 
@@ -2610,10 +2781,10 @@ body::-webkit-scrollbar {
         width: 50%;
         height: 60vh;
         padding: 5px;
-    
+
     }
-    
-    
+
+
     .modal-content-container ul li {
         color: black;
         font-size: 15pt;
@@ -2622,12 +2793,12 @@ body::-webkit-scrollbar {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
+
     .modal-content-container ul li span {
         font-weight: bold;
     }
 
-    .model-card-container{
+    .model-card-container {
         width: 100%;
         height: 100%;
         display: flex;
@@ -2636,7 +2807,8 @@ body::-webkit-scrollbar {
         align-items: center;
         /* border: 1px solid red !important; */
     }
-    .model-card-header-container{
+
+    .model-card-header-container {
         width: 100%;
         height: 20%;
         display: flex;
@@ -2645,7 +2817,8 @@ body::-webkit-scrollbar {
         padding: 1rem;
         /* border: 1px solid red; */
     }
-    .modal-card-body-contianer{
+
+    .modal-card-body-contianer {
         width: 100%;
         height: 80%;
         display: flex;
@@ -2663,21 +2836,23 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
     }
-    .footer-icon-div{
+
+    .footer-icon-div {
         width: 20%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .footer-icon{
+
+    .footer-icon {
         padding: 1rem;
         color: #777269;
         font-size: 25pt;
         margin-right: 30px;
     }
-    
-    .footer-content-div{
+
+    .footer-content-div {
         width: 80%;
         height: 100%;
         display: flex;
