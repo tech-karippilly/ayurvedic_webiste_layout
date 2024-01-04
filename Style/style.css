@@ -2227,10 +2227,10 @@ body::-webkit-scrollbar {
     }
 
     .reviews-items-user-reviews h5 {
-        font-size: 6vw;
+        font-size: 3vw;
     }
     .reviews-items-user-reviews p {
-        font-size: 3vw;
+        font-size: 1.5vw;
     }
 
 
@@ -2297,7 +2297,7 @@ body::-webkit-scrollbar {
     }
 
     .recognition-card {
-        width: 5rem;
+        width: 8rem;
         height: 120px;
         display: flex;
         justify-content: center;
