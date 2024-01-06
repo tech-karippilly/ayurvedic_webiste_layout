@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
     padding: 10px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    
+
 }
 
 .aboutCardTwo_cardContainer {
@@ -372,8 +372,6 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-
-
 }
 
 .modal-card-body-contianer {
@@ -860,7 +858,6 @@ body::-webkit-scrollbar {
 .model-background {
     background-color: #FFFFFF;
     height: 80%;
-
 }
 
 .button-text {
@@ -875,9 +872,7 @@ body::-webkit-scrollbar {
     background-color: #26560e;
     color: white;
     border: none;
-
 }
-
 
 .modal-closebuttonContianer {
     width: 50px;
@@ -944,7 +939,6 @@ body::-webkit-scrollbar {
     padding: 5px;
 
 }
-
 
 .modal-content-container ul li {
     color: black;
@@ -1014,7 +1008,7 @@ body::-webkit-scrollbar {
 
 #content-div p {
     font-weight: 400 !important;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 #content-div::-webkit-scrollbar {
@@ -1035,7 +1029,6 @@ body::-webkit-scrollbar {
     align-items: center;
     position: absolute;
     bottom: 0;
-
 }
 
 #down-arrow-icon {
@@ -1081,6 +1074,7 @@ body::-webkit-scrollbar {
 @media (max-width:370px) {
     body {
         font-size: 13px;
+
     }
 
     .modal-card-body-contianer {
@@ -1101,7 +1095,8 @@ body::-webkit-scrollbar {
     #image-div {
         width: 114%;
         height: 29vh;
-        padding: 5px
+        padding: 5px;
+        display: none;
     }
 
     #content-div h4 {
@@ -1183,12 +1178,14 @@ body::-webkit-scrollbar {
 
     .custom-div_card_image {
         height: 65%;
+
     }
 
     .card-head-text {
         font-size: 5vm !important;
         margin-top: 10px !important;
-       
+        
+
     }
 
     .card-p-text {
@@ -1214,7 +1211,7 @@ body::-webkit-scrollbar {
     }
 
     .aboutCardtwo {
-       
+
         overflow: hidden;
         height: auto !important;
     }
@@ -1232,7 +1229,8 @@ body::-webkit-scrollbar {
     .reviews-items-user-reviews h5 {
         font-size: 5vw !important;
     }
-    .reviews-items-user-reviews p{
+
+    .reviews-items-user-reviews p {
         font-size: 3vw;
     }
 
@@ -1247,26 +1245,62 @@ body::-webkit-scrollbar {
         height: 100vh !important;
     }
 
+    .mobview {
+
+        transform: translateY(-1rem) !important;
+    }
+
+    .card-head-text {
+        font-size: 10vm !important;
+        margin-top: 20px !important;
+        font-weight: bolder;
+
+    }
+
+    .footer-icon-div {
+
+        justify-content: end !important;
+        align-items: center !important;
+        width: 40% !important;
+    }
+
+    .footer-content-div {
+        width: 60% !important;
+
+    }
+
 }
 
-@media (min-width:370px) and (max-width:575px){
-    .header-bookNowBtn{
-        width: 16rem !important;
+@media (min-width:370px) and (max-width:575px) {
+
+
+
+
+    .header-bookNowBtn {
+        width: 20rem !important;
     }
+
+
     .card-heading-text {
+
         text-align: center;
+
     }
+
     .reviews-items-user-reviews h5 {
         font-size: 4vw;
     }
+
     .reviews-items-user-reviews p {
         font-size: 3vw;
     }
+
     .modal-card-body-contianer {
         display: flex;
         flex-direction: column !important;
 
     }
+
     #content-div {
         width: 100% !important;
     }
@@ -1274,7 +1308,9 @@ body::-webkit-scrollbar {
     #image-div {
         width: 114%;
         height: 29vh;
-        padding: 5px
+        padding: 5px;
+        display: none !important;
+
     }
 
     #content-div h4 {
@@ -1287,16 +1323,50 @@ body::-webkit-scrollbar {
     }
 
     .button-text {
-
         width: 16rem !important;
     }
+
+    .model-card-header-container h2 {
+        font-size: 13pt !important;
+        text-align: center;
+    }
+
+    .icon-button-container {
+        width: 130%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .card-head-text {
+        font-size: 10vm !important;
+        margin-top: 20px !important;
+        font-weight: bolder;
+
+    }
+
+    .footer-icon-div {
+
+        justify-content: end !important;
+        align-items: center !important;
+        width: 40% !important;
+    }
+
+    .footer-content-div {
+        width: 60% !important;
+
+    }
+
+
 }
 
 @media (max-width: 575.98px) {
 
     body {
         font-size: 13px;
-
     }
 
     .modal {
@@ -1306,6 +1376,7 @@ body::-webkit-scrollbar {
 
     .card-heading-text {
         font-size: 11pt;
+        text-align: center;
     }
 
     .about-cardSection {
@@ -1406,11 +1477,13 @@ body::-webkit-scrollbar {
     }
 
     .about-cardSection {
-        height: 1450px;
+        height: auto !important;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 7px;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
     }
 
     .cardContainer {
@@ -1527,11 +1600,11 @@ body::-webkit-scrollbar {
 
     .header-section-content-container {
         display: flex;
-        justify-content: center;
-        align-items: start;
         flex-direction: column;
         left: 7%;
+
     }
+
 
     .custom-div_card_image {
         height: 70% !important;
@@ -1726,6 +1799,18 @@ body::-webkit-scrollbar {
 
     }
 
+    .mobview {
+        transform: translateY(-4rem);
+    }
+
+    .about-card-body-text {
+        font-size: 16pt;
+    }
+
+    .about-card-header-title-text br {
+        display: none;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1750,6 +1835,7 @@ body::-webkit-scrollbar {
     .about-cardSection {
         height: 200vh !important;
     }
+
     .about-section {
         height: auto;
         background-color: #FFFFFF;
@@ -1857,7 +1943,8 @@ body::-webkit-scrollbar {
     .reviews-items-user-reviews h5 {
         font-size: 3vw !important;
     }
-    .reviews-items-user-reviews p{
+
+    .reviews-items-user-reviews p {
         font-size: 2vw;
     }
 
@@ -2133,7 +2220,8 @@ body::-webkit-scrollbar {
     .reviews-items-user-reviews h5 {
         font-size: 3vw !important;
     }
-    .reviews-items-user-reviews p{
+
+    .reviews-items-user-reviews p {
         font-size: 2vw;
     }
 }
@@ -2141,7 +2229,7 @@ body::-webkit-scrollbar {
 @media (min-width: 768px) and (max-width: 991.98px) {
     body {
         font-size: 18px;
-       
+
     }
 
     .card-heading-text {
@@ -2229,6 +2317,7 @@ body::-webkit-scrollbar {
     .reviews-items-user-reviews h5 {
         font-size: 3vw;
     }
+
     .reviews-items-user-reviews p {
         font-size: 1.5vw;
     }
@@ -2610,31 +2699,35 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
+    .modal{
+        height:auto;
+    }
 
     .model-card-header-container {
         width: 100%;
-        height: 4rem !important;
+        height: 2rem !important;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
+       
 
     }
+    .model-card-header-container h2 {
+        font-size: 12pt;
+    }
+
 
     .modal-card-body-contianer {
         width: 100%;
-        height: 70%;
+        height: 40% !important;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+ 
     }
 
-    .model-card-header-container h2 {
-        font-size: 15pt;
-        margin: 0;
-        padding: 0;
-    }
+
 
     #content-div {
         width: 50%;
@@ -2642,10 +2735,11 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: column;
         padding: 5px;
-        overflow: scroll;
+        overflow: hidden;
         color: #000000;
         margin-left: 1rem;
         margin-top: 10px;
+
 
     }
 
@@ -2696,6 +2790,8 @@ body::-webkit-scrollbar {
         text-align: left;
         color: #777269;
     }
+
+
 
 }
 
@@ -2805,7 +2901,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* border: 1px solid red !important; */
+       
     }
 
     .model-card-header-container {
@@ -2815,17 +2911,17 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        /* border: 1px solid red; */
+        
     }
 
     .modal-card-body-contianer {
         width: 100%;
-        height: 80%;
+        height: 50%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        /* border: 1px solid red; */
+       
     }
 
     .footer-contact-phone-div {
