@@ -1184,7 +1184,7 @@ body::-webkit-scrollbar {
     .card-head-text {
         font-size: 5vm !important;
         margin-top: 10px !important;
-        
+
 
     }
 
@@ -2699,8 +2699,9 @@ body::-webkit-scrollbar {
         align-items: center;
 
     }
-    .modal{
-        height:auto;
+
+    .modal {
+        height: auto;
     }
 
     .model-card-header-container {
@@ -2709,9 +2710,10 @@ body::-webkit-scrollbar {
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
 
     }
+
     .model-card-header-container h2 {
         font-size: 12pt;
     }
@@ -2724,7 +2726,7 @@ body::-webkit-scrollbar {
         flex-direction: row;
         justify-content: center;
         align-items: center;
- 
+
     }
 
 
@@ -2798,6 +2800,7 @@ body::-webkit-scrollbar {
 @media (min-width: 1200px) {
     body {
         font-size: 22px;
+
     }
 
     .aboutCardtwo {
@@ -2901,7 +2904,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
+
     }
 
     .model-card-header-container {
@@ -2911,7 +2914,7 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        
+
     }
 
     .modal-card-body-contianer {
@@ -2921,7 +2924,7 @@ body::-webkit-scrollbar {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-       
+
     }
 
     .footer-contact-phone-div {
@@ -2956,6 +2959,27 @@ body::-webkit-scrollbar {
         justify-content: center;
         text-align: left;
         color: #777269;
+    }
+
+
+    .modal {
+        --bs-modal-width: 80%;
+    }
+
+    .model-card-header-container {
+
+        padding: 4px !important;
+    }
+
+    .modal-card-body-contianer {
+
+        margin-bottom: 0px !important;
+    }
+
+    .modal-FooterContainer {
+        margin-top: 0px !important;
+
+        padding: 1px !important;
     }
 
 }
