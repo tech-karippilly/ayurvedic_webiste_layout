@@ -254,7 +254,7 @@ body::-webkit-scrollbar {
     align-items: center;
     flex-direction: row;
     border-radius: 6px;
-    background-color: #291508;
+    background-color: #43220d;
     border: none;
 
 }
@@ -277,7 +277,7 @@ body::-webkit-scrollbar {
 }
 
 .about-card-header-title-text {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .about-card-body {
@@ -519,7 +519,7 @@ body::-webkit-scrollbar {
 }
 
 .reviews-items-user-reviews p {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
 }
 
 .reviews-items-user-reviews::-webkit-scrollbar {
@@ -1582,7 +1582,7 @@ body::-webkit-scrollbar {
         width: 70%;
         height: 7rem;
         position: absolute;
-        top: 20px;
+        top: 10px;
         left: 1rem;
         z-index: 1;
         display: flex;
@@ -1761,7 +1761,7 @@ body::-webkit-scrollbar {
 
 
     .footer-contact-phone-div {
-        height: 11vh;
+        height: 7vh;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -1800,7 +1800,7 @@ body::-webkit-scrollbar {
     }
 
     .mobview {
-        transform: translateY(-4rem);
+        transform: translateY(-7rem);
     }
 
     .about-card-body-text {
