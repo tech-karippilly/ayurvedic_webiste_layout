@@ -514,33 +514,6 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 
-    <script>
-        $(document).ready(function () {
-            $('.custom-div_card').on('click', function () {
-                var cardId = $(this).data(
-                    'card-id');
-                var content = $('#' + cardId).html();
-                var imageSrc = $('#' + cardId + 'Image').attr('src');
-
-                $('#modalContent').html(content);
-
-                $('#modalImage').attr('src', imageSrc);
-
-                $('#exampleModalToggleModal').modal('show');
-            });
-        });
-
-        function scrollToFormSection() {
-            var formSection = document.getElementById('form-section');
-            if (formSection) {
-                $('#exampleModalToggleModal').modal('hide');
-                formSection.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        }
-    </script>
-
     <div class="whatsapp-wrap"> <a class="whatsapp-fixed"
             href="https://wa.me/+918086040101?text=Hello, I have a question about https://wellnessloka.com/"
             target="_blank"> <svg class="svg-inline--fa fa-whatsapp fa-w-14 bounce-1" aria-hidden="true"
