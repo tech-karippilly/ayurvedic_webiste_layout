@@ -1044,6 +1044,10 @@ body::-webkit-scrollbar {
     height: 34% !important;
 }
 
+.hoverclass {
+    color: #43220de6;
+}
+
 .hoverclass:hover {
     color: #25e4eb !important;
     text-decoration: none;
@@ -1818,7 +1822,7 @@ body::-webkit-scrollbar {
         font-size: 16px;
     }
 
-   
+
 
     .modal {
         --bs-modal-width: 50%;
