@@ -1268,13 +1268,20 @@ body::-webkit-scrollbar {
         width: 60% !important;
 
     }
+    .modal {
+        width: 100%;
+        max-height: 90%;
+    }
 
 }
 
 @media (min-width:370px) and (max-width:575px) {
 
 
-
+    .modal {
+        width: 100%;
+        max-height: 90%;
+    }
 
     .header-bookNowBtn {
         width: 20rem !important;
@@ -1370,8 +1377,8 @@ body::-webkit-scrollbar {
     }
 
     .modal {
-        width: 90%;
-        max-height: 80%;
+        width: 100%;
+        max-height: 90%;
     }
 
     .card-heading-text {
@@ -2983,3 +2990,5 @@ body::-webkit-scrollbar {
     }
 
 }
+
+
