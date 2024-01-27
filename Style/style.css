@@ -114,7 +114,7 @@ body::-webkit-scrollbar {
 .aboutCardOne {
     height: 480px;
     margin: 5px;
-    background-image: url('../images/Kerala-Ayurveda-Retreat.jpg');
+    /* background-image: url('../images/Kerala-Ayurveda-Retreat.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -295,6 +295,10 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
+.shadow {
+    width: 60%;
+    height: 70%;
+}
 
 /* ************** CARD SECTION CSS ************ */
 
@@ -511,7 +515,7 @@ body::-webkit-scrollbar {
     justify-content: flex-start;
     flex-direction: column;
     padding: 6px;
-    overflow: hidden;
+    overflow: unset;
 }
 
 .reviews-items-user-reviews h5 {
@@ -900,7 +904,7 @@ body::-webkit-scrollbar {
 }
 
 .modal-body {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -959,8 +963,8 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 1rem;
-    padding: 1.6rem;
+    /* margin-top: 1rem; */
+    padding: 1.1rem;
 }
 
 .modal-badge {
@@ -1076,9 +1080,23 @@ body::-webkit-scrollbar {
 
 
 @media (max-width:370px) {
+
     body {
         font-size: 13px;
 
+    }
+
+    .shadow {
+        width: 50%;
+        height: 50%;
+    }
+
+    .footer-social-media i {
+        font-size: 25px;
+    }
+
+    .about-card-header-icon i {
+        font-size: 2rem;
     }
 
     .modal-card-body-contianer {
@@ -1123,7 +1141,7 @@ body::-webkit-scrollbar {
     }
 
     #book-now-btn {
-        width: 20rem !important;
+        /* width: 20rem !important; */
     }
 
     .modal {
@@ -1197,7 +1215,7 @@ body::-webkit-scrollbar {
     }
 
     .review-reviews-container {
-        height: 90vh;
+        height: 1%;
         display: flex;
         flex-direction: column;
         padding: 1px;
@@ -1235,7 +1253,7 @@ body::-webkit-scrollbar {
     }
 
     .reviews-items-user-reviews p {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
 
     .formsection_content_p {
@@ -1278,7 +1296,18 @@ body::-webkit-scrollbar {
 @media (min-width:370px) and (max-width:575px) {
 
 
+    .footer-social-media i {
+        font-size: 25px;
+    }
 
+    .shadow {
+        width: 50%;
+        height: 50%;
+    }
+
+    .about-card-header-icon i {
+        font-size: 2rem;
+    }
 
     .header-bookNowBtn {
         width: 20rem !important;
@@ -1369,13 +1398,26 @@ body::-webkit-scrollbar {
 
 @media (max-width: 575.98px) {
 
+    .shadow {
+        width: 50%;
+        height: 50%;
+    }
+
+    .footer-social-media i {
+        font-size: 25px;
+    }
+
+    .about-card-header-icon i {
+        font-size: 2rem;
+    }
+
     body {
         font-size: 13px;
     }
 
     .modal {
-        width: 90%;
-        max-height: 80%;
+        width: 100%;
+        max-height: 95%;
     }
 
     .card-heading-text {
@@ -1523,7 +1565,7 @@ body::-webkit-scrollbar {
 
     .review-reviews-reviews-items-container {
         width: 100%;
-        height: 13vh;
+        height: 15vh;
         padding: 5px;
         margin: 2px;
         display: flex;
@@ -1818,11 +1860,22 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .footer-social-media i {
+        font-size: 25px;
+    }
+    .shadow {
+        width: 50%;
+        height: 50%;
+    }
+
+    .about-card-header-icon i {
+        font-size: 2rem;
+    }
+
     body {
         font-size: 16px;
     }
-
-
 
     .modal {
         --bs-modal-width: 50%;
@@ -2563,7 +2616,7 @@ body::-webkit-scrollbar {
     }
 
     .about-card-body-text {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .about-card-header-title-text {
@@ -2990,4 +3043,49 @@ body::-webkit-scrollbar {
 
 
 
+}
+
+
+.whatsapp-wrap .whatsapp-fixed {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 80px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #06090f61;
+    z-index: 1010;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-wrap .whatsapp-fixed svg {
+    height: 30px
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+
+@keyframes bounce-1 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-4px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
 }
