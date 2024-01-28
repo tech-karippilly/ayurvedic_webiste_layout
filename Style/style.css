@@ -1290,11 +1290,19 @@ body::-webkit-scrollbar {
         width: 60% !important;
 
     }
+    .modal {
+        width: 100%;
+        max-height: 90%;
+    }
 
 }
 
 @media (min-width:370px) and (max-width:575px) {
 
+
+    .modal {
+        width: 100%;
+        max-height: 90%;
 
     .footer-social-media i {
         font-size: 25px;
@@ -1307,6 +1315,7 @@ body::-webkit-scrollbar {
 
     .about-card-header-icon i {
         font-size: 2rem;
+
     }
 
     .header-bookNowBtn {
@@ -1417,7 +1426,9 @@ body::-webkit-scrollbar {
 
     .modal {
         width: 100%;
-        max-height: 95%;
+
+        max-height: 90%;
+
     }
 
     .card-heading-text {
@@ -3089,3 +3100,4 @@ body::-webkit-scrollbar {
         transform: translateY(0)
     }
 }
+
