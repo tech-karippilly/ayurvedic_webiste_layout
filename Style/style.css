@@ -1075,6 +1075,31 @@ body::-webkit-scrollbar {
     body {
         font-size: 13px;
 
+<<<<<<< Updated upstream
+=======
+}
+
+
+
+@media (max-width:370px)   {
+
+    body {
+        font-size: 13px;
+        `
+    }
+
+    .shadow {
+        width: 50%;
+        height: 50%;
+    }
+
+    .footer-social-media i {
+        font-size: 25px;
+    }
+
+    .about-card-header-icon i {
+        font-size: 2rem;
+>>>>>>> Stashed changes
     }
 
     .modal-card-body-contianer {
