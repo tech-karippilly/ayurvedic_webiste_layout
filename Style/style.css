@@ -1078,6 +1078,40 @@ body::-webkit-scrollbar {
     }
 }
 
+@media (orientation: landscape){
+
+
+    .header-section {
+        height: 120vh !important;
+        overflow: hidden;
+    }
+    .header-section-content-container h2{
+        
+        margin-top: 1.5rem ;
+    }
+    .custom-div_card{
+        overflow: hidden;
+    }
+    .reviews-items-user-reviews h5 {
+        font-size: 0.9vw !important;
+    }
+    
+    .reviews-items-user-reviews p {
+        font-size: 0.8vw !important;
+    }
+    
+    .reviews-items-user-reviews::-webkit-scrollbar {
+        display: none;
+    }
+    .RecognitionSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh !important;
+    
+    }
+}
+
 
 @media (max-width:370px) {
 
@@ -1303,6 +1337,7 @@ body::-webkit-scrollbar {
     .modal {
         width: 100%;
         max-height: 90%;
+    }
 
     .footer-social-media i {
         font-size: 25px;
