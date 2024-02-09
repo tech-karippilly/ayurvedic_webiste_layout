@@ -1078,54 +1078,38 @@ body::-webkit-scrollbar {
     }
 }
 
-@media (orientation: landscape){
-
-
-    .header-section {
-        height: 120vh !important;
-        overflow: hidden;
-    }
-    .header-section-content-container h2{
-        
-        margin-top: 1.5rem ;
-    }
-    .custom-div_card{
-        overflow: hidden;
-    }
-    .reviews-items-user-reviews h5 {
-        font-size: 0.9vw !important;
-    }
-    
-    .reviews-items-user-reviews p {
-        font-size: 0.8vw !important;
-    }
-    
-    .reviews-items-user-reviews::-webkit-scrollbar {
-        display: none;
-    }
-    .RecognitionSection{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh !important;
-    
-    }
-}
-
 
 @media (max-width:370px) {
 
     body {
-
         font-size: 13px;
-        
 
+<<<<<<< Updated upstream
+=======
+}
+
+
+
+@media (max-width:370px)   {
+
+    body {
+        font-size: 13px;
+        `
     }
-    body::-webkit-scrollbar{
-      
-        overflow-x: hidden;
+
+    .shadow {
+        width: 50%;
+        height: 50%;
     }
-    
+
+    .footer-social-media i {
+        font-size: 25px;
+    }
+
+    .about-card-header-icon i {
+        font-size: 2rem;
+>>>>>>> Stashed changes
+    }
 
     .shadow {
         width: 50%;
@@ -1331,15 +1315,19 @@ body::-webkit-scrollbar {
         width: 60% !important;
 
     }
+    .modal {
+        width: 100%;
+        max-height: 90%;
+    }
 
 }
 
 @media (min-width:370px) and (max-width:575px) {
-    
-    body::-webkit-scrollbar{
-       
-        overflow-x: hidden;
-    }
+
+
+    .modal {
+        width: 100%;
+        max-height: 90%;
 
     .footer-social-media i {
         font-size: 25px;
@@ -1352,6 +1340,7 @@ body::-webkit-scrollbar {
 
     .about-card-header-icon i {
         font-size: 2rem;
+
     }
 
     .header-bookNowBtn {
@@ -1443,9 +1432,6 @@ body::-webkit-scrollbar {
 
 @media (max-width: 575.98px) {
 
-    body::-webkit-scrollbar{
-        display: none;
-    }
     .shadow {
         width: 50%;
         height: 50%;
@@ -1465,7 +1451,9 @@ body::-webkit-scrollbar {
 
     .modal {
         width: 100%;
-        max-height: 95%;
+
+        max-height: 90%;
+
     }
 
     .card-heading-text {
@@ -1908,13 +1896,10 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    body::-webkit-scrollbar{
-        display: none;
-    }
+
     .footer-social-media i {
         font-size: 25px;
     }
-
     .shadow {
         width: 50%;
         height: 50%;
@@ -2337,9 +2322,6 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    body::-webkit-scrollbar{
-        display: none;
-    }
     body {
         font-size: 18px;
 
@@ -2665,9 +2647,6 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    body::-webkit-scrollbar{
-        display: none;
-    }
     body {
         font-size: 20px;
     }
@@ -2914,9 +2893,6 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 1200px) {
-    body::-webkit-scrollbar{
-        display: none;
-    }
     body {
         font-size: 22px;
 
@@ -3150,58 +3126,3 @@ body::-webkit-scrollbar {
     }
 }
 
-
-@media (orientation: landscape) and (max-width: 767px) {
-
-
-    .header-CarouselItems {
-        height: 160vh !important;
-    }
-
-    .header-section {
-        height: 155vh !important;
-        overflow: hidden;
-    }
-
-    .header-section-content-container h2 {
-
-        margin-top: 1.5rem;
-    }
-
-    .custom-div_card {
-        overflow: hidden;
-    }
-
-    .about-cardSection {
-        height: 100% !important;
-    }
-
-    .reviews-items-user-reviews h5 {
-        font-size: 2vw !important;
-    }
-
-    .reviews-items-user-reviews p {
-        font-size: 1.6vw !important;
-    }
-
-    .review-reviews-reviews-items-container {
-        height: 19vh;
-
-    }
-
-    .reviews-items-user-reviews::-webkit-scrollbar {
-        display: none;
-    }
-
-    .review-reviews-container {
-        height: 100% !important;
-    }
-
-    .RecognitionSection {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200vh !important;
-
-    }
-}
